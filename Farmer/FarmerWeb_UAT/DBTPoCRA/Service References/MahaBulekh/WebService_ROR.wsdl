@@ -1,0 +1,1083 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="GetSurveyNoByNumericPin">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="webservice_id" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="wsuser_id" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Format_code" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="dist_code" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="tah_code" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ccode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetSurveyNoByNumericPinResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetSurveyNoByNumericPinResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DisplayROR712">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="webservice_id" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="wsuser_id" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Format_code" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="dist_code" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="tah_code" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ccode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin1" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin2" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin3" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin4" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin5" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin6" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin7" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin8" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DisplayROR712Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DisplayROR712Result" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DisplayROR712_withbj">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="webservice_id" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="wsuser_id" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Format_code" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="dist_code" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="tah_code" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ccode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin1" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin2" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin3" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin4" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin5" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin6" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin7" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin8" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DisplayROR712_withbjResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DisplayROR712_withbjResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DisplayROR8A">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="webservice_id" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="wsuser_id" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Format_code" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="dist_code" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="tah_code" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ccode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Khatanumber" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DisplayROR8AResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DisplayROR8AResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DisplayNEW8A">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="webservice_id" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="wsuser_id" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Format_code" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="dist_code" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="tah_code" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ccode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Khatanumber" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DisplayNEW8AResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DisplayNEW8AResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="pending_mutation_details">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="webservice_id" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="wsuser_id" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Format_code" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="dist_code" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="tah_code" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ccode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin1" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin2" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin3" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin4" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin5" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin6" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin7" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin8" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="pending_mutation_detailsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pending_mutation_detailsResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDistricts_Taluka_Village">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="webservice_id" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="wsuser_id" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="opr" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="div_code" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="dist_code" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="tah_code" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDistricts_Taluka_VillageResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetDistricts_Taluka_VillageResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DisplayLRMR_html">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="webservice_id" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="wsuser_id" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="dist_code" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="tah_code" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ccode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="mut_no" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DisplayLRMR_htmlResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DisplayLRMR_htmlResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DisplayLR8A_byte">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="webservice_id" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="wsuser_id" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="dist_code" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="tah_code" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ccode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="khata_no" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DisplayLR8A_byteResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DisplayLR8A_byteResult" type="s:base64Binary" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DisplayLR712_byte">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="webservice_id" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="wsuser_id" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="dist_code" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="tah_code" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ccode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin1" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin2" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin3" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin4" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin5" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin6" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin7" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin8" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DisplayLR712_byteResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DisplayLR712_byteResult" type="s:base64Binary" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DisplayNEW8A_Decrypted">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="webservice_id" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="wsuser_id" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Format_code" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="dist_code" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="tah_code" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ccode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Khatanumber" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DisplayNEW8A_DecryptedResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DisplayNEW8A_DecryptedResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDistricts_Taluka_Village_Decrypted">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="webservice_id" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="wsuser_id" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="opr" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="div_code" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="dist_code" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="tah_code" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDistricts_Taluka_Village_DecryptedResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetDistricts_Taluka_Village_DecryptedResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DisplayLR712_byte_Decrypted">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="webservice_id" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="wsuser_id" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="dist_code" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="tah_code" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ccode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin1" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin2" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin3" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin4" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin5" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin6" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin7" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin8" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DisplayLR712_byte_DecryptedResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DisplayLR712_byte_DecryptedResult" type="s:base64Binary" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DisplayROR8A_Decrypted">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="webservice_id" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="wsuser_id" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Format_code" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="dist_code" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="tah_code" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ccode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Khatanumber" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DisplayROR8A_DecryptedResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DisplayROR8A_DecryptedResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Display712HTML">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="webservice_id" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="wsuser_id" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="DistCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="TalukaCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ccode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin1" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin2" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin3" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin4" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin5" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin6" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin7" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin8" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="hashpincase" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="crop_year" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Display712HTMLResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Display712HTMLResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Display12HTML">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="webservice_id" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="wsuser_id" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="DistCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="TalukaCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ccode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin1" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin2" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin3" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin4" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin5" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin6" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin7" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin8" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="hashpincase" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="crop_year" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Display12HTMLResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Display12HTMLResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Display7HTML">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="webservice_id" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="wsuser_id" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="DistCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="TalukaCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ccode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin1" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin2" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin3" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin4" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin5" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin6" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin7" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin8" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="hashpincase" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="crop_year" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Display7HTMLResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Display7HTMLResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Display712HTMLLGD">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="webservice_id" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="wsuser_id" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Lgdcode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin1" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin2" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin3" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin4" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin5" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin6" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin7" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin8" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="hashpincase" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="crop_year" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Display712HTMLLGDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Display712HTMLLGDResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Display12HTMLWithLGD">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="webservice_id" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="wsuser_id" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Lgdcode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin1" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin2" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin3" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin4" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin5" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin6" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin7" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin8" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="hashpincase" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="crop_year" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Display12HTMLWithLGDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Display12HTMLWithLGDResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DisplayLR712_byte_With_LGD">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="webservice_id" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="wsuser_id" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Lgdcode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin1" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin2" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin3" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin4" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin5" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin6" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin7" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pin8" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DisplayLR712_byte_With_LGDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DisplayLR712_byte_With_LGDResult" type="s:base64Binary" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetSurveyNoByNumericPinSoapIn">
+    <wsdl:part name="parameters" element="tns:GetSurveyNoByNumericPin" />
+  </wsdl:message>
+  <wsdl:message name="GetSurveyNoByNumericPinSoapOut">
+    <wsdl:part name="parameters" element="tns:GetSurveyNoByNumericPinResponse" />
+  </wsdl:message>
+  <wsdl:message name="DisplayROR712SoapIn">
+    <wsdl:part name="parameters" element="tns:DisplayROR712" />
+  </wsdl:message>
+  <wsdl:message name="DisplayROR712SoapOut">
+    <wsdl:part name="parameters" element="tns:DisplayROR712Response" />
+  </wsdl:message>
+  <wsdl:message name="DisplayROR712_withbjSoapIn">
+    <wsdl:part name="parameters" element="tns:DisplayROR712_withbj" />
+  </wsdl:message>
+  <wsdl:message name="DisplayROR712_withbjSoapOut">
+    <wsdl:part name="parameters" element="tns:DisplayROR712_withbjResponse" />
+  </wsdl:message>
+  <wsdl:message name="DisplayROR8ASoapIn">
+    <wsdl:part name="parameters" element="tns:DisplayROR8A" />
+  </wsdl:message>
+  <wsdl:message name="DisplayROR8ASoapOut">
+    <wsdl:part name="parameters" element="tns:DisplayROR8AResponse" />
+  </wsdl:message>
+  <wsdl:message name="DisplayNEW8ASoapIn">
+    <wsdl:part name="parameters" element="tns:DisplayNEW8A" />
+  </wsdl:message>
+  <wsdl:message name="DisplayNEW8ASoapOut">
+    <wsdl:part name="parameters" element="tns:DisplayNEW8AResponse" />
+  </wsdl:message>
+  <wsdl:message name="pending_mutation_detailsSoapIn">
+    <wsdl:part name="parameters" element="tns:pending_mutation_details" />
+  </wsdl:message>
+  <wsdl:message name="pending_mutation_detailsSoapOut">
+    <wsdl:part name="parameters" element="tns:pending_mutation_detailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetDistricts_Taluka_VillageSoapIn">
+    <wsdl:part name="parameters" element="tns:GetDistricts_Taluka_Village" />
+  </wsdl:message>
+  <wsdl:message name="GetDistricts_Taluka_VillageSoapOut">
+    <wsdl:part name="parameters" element="tns:GetDistricts_Taluka_VillageResponse" />
+  </wsdl:message>
+  <wsdl:message name="DisplayLRMR_htmlSoapIn">
+    <wsdl:part name="parameters" element="tns:DisplayLRMR_html" />
+  </wsdl:message>
+  <wsdl:message name="DisplayLRMR_htmlSoapOut">
+    <wsdl:part name="parameters" element="tns:DisplayLRMR_htmlResponse" />
+  </wsdl:message>
+  <wsdl:message name="DisplayLR8A_byteSoapIn">
+    <wsdl:part name="parameters" element="tns:DisplayLR8A_byte" />
+  </wsdl:message>
+  <wsdl:message name="DisplayLR8A_byteSoapOut">
+    <wsdl:part name="parameters" element="tns:DisplayLR8A_byteResponse" />
+  </wsdl:message>
+  <wsdl:message name="DisplayLR712_byteSoapIn">
+    <wsdl:part name="parameters" element="tns:DisplayLR712_byte" />
+  </wsdl:message>
+  <wsdl:message name="DisplayLR712_byteSoapOut">
+    <wsdl:part name="parameters" element="tns:DisplayLR712_byteResponse" />
+  </wsdl:message>
+  <wsdl:message name="DisplayNEW8A_DecryptedSoapIn">
+    <wsdl:part name="parameters" element="tns:DisplayNEW8A_Decrypted" />
+  </wsdl:message>
+  <wsdl:message name="DisplayNEW8A_DecryptedSoapOut">
+    <wsdl:part name="parameters" element="tns:DisplayNEW8A_DecryptedResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetDistricts_Taluka_Village_DecryptedSoapIn">
+    <wsdl:part name="parameters" element="tns:GetDistricts_Taluka_Village_Decrypted" />
+  </wsdl:message>
+  <wsdl:message name="GetDistricts_Taluka_Village_DecryptedSoapOut">
+    <wsdl:part name="parameters" element="tns:GetDistricts_Taluka_Village_DecryptedResponse" />
+  </wsdl:message>
+  <wsdl:message name="DisplayLR712_byte_DecryptedSoapIn">
+    <wsdl:part name="parameters" element="tns:DisplayLR712_byte_Decrypted" />
+  </wsdl:message>
+  <wsdl:message name="DisplayLR712_byte_DecryptedSoapOut">
+    <wsdl:part name="parameters" element="tns:DisplayLR712_byte_DecryptedResponse" />
+  </wsdl:message>
+  <wsdl:message name="DisplayROR8A_DecryptedSoapIn">
+    <wsdl:part name="parameters" element="tns:DisplayROR8A_Decrypted" />
+  </wsdl:message>
+  <wsdl:message name="DisplayROR8A_DecryptedSoapOut">
+    <wsdl:part name="parameters" element="tns:DisplayROR8A_DecryptedResponse" />
+  </wsdl:message>
+  <wsdl:message name="Display712HTMLSoapIn">
+    <wsdl:part name="parameters" element="tns:Display712HTML" />
+  </wsdl:message>
+  <wsdl:message name="Display712HTMLSoapOut">
+    <wsdl:part name="parameters" element="tns:Display712HTMLResponse" />
+  </wsdl:message>
+  <wsdl:message name="Display12HTMLSoapIn">
+    <wsdl:part name="parameters" element="tns:Display12HTML" />
+  </wsdl:message>
+  <wsdl:message name="Display12HTMLSoapOut">
+    <wsdl:part name="parameters" element="tns:Display12HTMLResponse" />
+  </wsdl:message>
+  <wsdl:message name="Display7HTMLSoapIn">
+    <wsdl:part name="parameters" element="tns:Display7HTML" />
+  </wsdl:message>
+  <wsdl:message name="Display7HTMLSoapOut">
+    <wsdl:part name="parameters" element="tns:Display7HTMLResponse" />
+  </wsdl:message>
+  <wsdl:message name="Display712HTMLLGDSoapIn">
+    <wsdl:part name="parameters" element="tns:Display712HTMLLGD" />
+  </wsdl:message>
+  <wsdl:message name="Display712HTMLLGDSoapOut">
+    <wsdl:part name="parameters" element="tns:Display712HTMLLGDResponse" />
+  </wsdl:message>
+  <wsdl:message name="Display12HTMLWithLGDSoapIn">
+    <wsdl:part name="parameters" element="tns:Display12HTMLWithLGD" />
+  </wsdl:message>
+  <wsdl:message name="Display12HTMLWithLGDSoapOut">
+    <wsdl:part name="parameters" element="tns:Display12HTMLWithLGDResponse" />
+  </wsdl:message>
+  <wsdl:message name="DisplayLR712_byte_With_LGDSoapIn">
+    <wsdl:part name="parameters" element="tns:DisplayLR712_byte_With_LGD" />
+  </wsdl:message>
+  <wsdl:message name="DisplayLR712_byte_With_LGDSoapOut">
+    <wsdl:part name="parameters" element="tns:DisplayLR712_byte_With_LGDResponse" />
+  </wsdl:message>
+  <wsdl:portType name="WebService_RORSoap">
+    <wsdl:operation name="GetSurveyNoByNumericPin">
+      <wsdl:input message="tns:GetSurveyNoByNumericPinSoapIn" />
+      <wsdl:output message="tns:GetSurveyNoByNumericPinSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DisplayROR712">
+      <wsdl:input message="tns:DisplayROR712SoapIn" />
+      <wsdl:output message="tns:DisplayROR712SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DisplayROR712_withbj">
+      <wsdl:input message="tns:DisplayROR712_withbjSoapIn" />
+      <wsdl:output message="tns:DisplayROR712_withbjSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DisplayROR8A">
+      <wsdl:input message="tns:DisplayROR8ASoapIn" />
+      <wsdl:output message="tns:DisplayROR8ASoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DisplayNEW8A">
+      <wsdl:input message="tns:DisplayNEW8ASoapIn" />
+      <wsdl:output message="tns:DisplayNEW8ASoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="pending_mutation_details">
+      <wsdl:input message="tns:pending_mutation_detailsSoapIn" />
+      <wsdl:output message="tns:pending_mutation_detailsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDistricts_Taluka_Village">
+      <wsdl:input message="tns:GetDistricts_Taluka_VillageSoapIn" />
+      <wsdl:output message="tns:GetDistricts_Taluka_VillageSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DisplayLRMR_html">
+      <wsdl:input message="tns:DisplayLRMR_htmlSoapIn" />
+      <wsdl:output message="tns:DisplayLRMR_htmlSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DisplayLR8A_byte">
+      <wsdl:input message="tns:DisplayLR8A_byteSoapIn" />
+      <wsdl:output message="tns:DisplayLR8A_byteSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DisplayLR712_byte">
+      <wsdl:input message="tns:DisplayLR712_byteSoapIn" />
+      <wsdl:output message="tns:DisplayLR712_byteSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DisplayNEW8A_Decrypted">
+      <wsdl:input message="tns:DisplayNEW8A_DecryptedSoapIn" />
+      <wsdl:output message="tns:DisplayNEW8A_DecryptedSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDistricts_Taluka_Village_Decrypted">
+      <wsdl:input message="tns:GetDistricts_Taluka_Village_DecryptedSoapIn" />
+      <wsdl:output message="tns:GetDistricts_Taluka_Village_DecryptedSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DisplayLR712_byte_Decrypted">
+      <wsdl:input message="tns:DisplayLR712_byte_DecryptedSoapIn" />
+      <wsdl:output message="tns:DisplayLR712_byte_DecryptedSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DisplayROR8A_Decrypted">
+      <wsdl:input message="tns:DisplayROR8A_DecryptedSoapIn" />
+      <wsdl:output message="tns:DisplayROR8A_DecryptedSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Display712HTML">
+      <wsdl:input message="tns:Display712HTMLSoapIn" />
+      <wsdl:output message="tns:Display712HTMLSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Display12HTML">
+      <wsdl:input message="tns:Display12HTMLSoapIn" />
+      <wsdl:output message="tns:Display12HTMLSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Display7HTML">
+      <wsdl:input message="tns:Display7HTMLSoapIn" />
+      <wsdl:output message="tns:Display7HTMLSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Display712HTMLLGD">
+      <wsdl:input message="tns:Display712HTMLLGDSoapIn" />
+      <wsdl:output message="tns:Display712HTMLLGDSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Display12HTMLWithLGD">
+      <wsdl:input message="tns:Display12HTMLWithLGDSoapIn" />
+      <wsdl:output message="tns:Display12HTMLWithLGDSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DisplayLR712_byte_With_LGD">
+      <wsdl:input message="tns:DisplayLR712_byte_With_LGDSoapIn" />
+      <wsdl:output message="tns:DisplayLR712_byte_With_LGDSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WebService_RORSoap" type="tns:WebService_RORSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetSurveyNoByNumericPin">
+      <soap:operation soapAction="http://tempuri.org/GetSurveyNoByNumericPin" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DisplayROR712">
+      <soap:operation soapAction="http://tempuri.org/DisplayROR712" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DisplayROR712_withbj">
+      <soap:operation soapAction="http://tempuri.org/DisplayROR712_withbj" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DisplayROR8A">
+      <soap:operation soapAction="http://tempuri.org/DisplayROR8A" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DisplayNEW8A">
+      <soap:operation soapAction="http://tempuri.org/DisplayNEW8A" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="pending_mutation_details">
+      <soap:operation soapAction="http://tempuri.org/pending_mutation_details" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDistricts_Taluka_Village">
+      <soap:operation soapAction="http://tempuri.org/GetDistricts_Taluka_Village" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DisplayLRMR_html">
+      <soap:operation soapAction="http://tempuri.org/DisplayLRMR_html" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DisplayLR8A_byte">
+      <soap:operation soapAction="http://tempuri.org/DisplayLR8A_byte" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DisplayLR712_byte">
+      <soap:operation soapAction="http://tempuri.org/DisplayLR712_byte" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DisplayNEW8A_Decrypted">
+      <soap:operation soapAction="http://tempuri.org/DisplayNEW8A_Decrypted" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDistricts_Taluka_Village_Decrypted">
+      <soap:operation soapAction="http://tempuri.org/GetDistricts_Taluka_Village_Decrypted" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DisplayLR712_byte_Decrypted">
+      <soap:operation soapAction="http://tempuri.org/DisplayLR712_byte_Decrypted" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DisplayROR8A_Decrypted">
+      <soap:operation soapAction="http://tempuri.org/DisplayROR8A_Decrypted" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Display712HTML">
+      <soap:operation soapAction="http://tempuri.org/Display712HTML" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Display12HTML">
+      <soap:operation soapAction="http://tempuri.org/Display12HTML" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Display7HTML">
+      <soap:operation soapAction="http://tempuri.org/Display7HTML" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Display712HTMLLGD">
+      <soap:operation soapAction="http://tempuri.org/Display712HTMLLGD" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Display12HTMLWithLGD">
+      <soap:operation soapAction="http://tempuri.org/Display12HTMLWithLGD" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DisplayLR712_byte_With_LGD">
+      <soap:operation soapAction="http://tempuri.org/DisplayLR712_byte_With_LGD" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WebService_RORSoap12" type="tns:WebService_RORSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetSurveyNoByNumericPin">
+      <soap12:operation soapAction="http://tempuri.org/GetSurveyNoByNumericPin" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DisplayROR712">
+      <soap12:operation soapAction="http://tempuri.org/DisplayROR712" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DisplayROR712_withbj">
+      <soap12:operation soapAction="http://tempuri.org/DisplayROR712_withbj" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DisplayROR8A">
+      <soap12:operation soapAction="http://tempuri.org/DisplayROR8A" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DisplayNEW8A">
+      <soap12:operation soapAction="http://tempuri.org/DisplayNEW8A" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="pending_mutation_details">
+      <soap12:operation soapAction="http://tempuri.org/pending_mutation_details" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDistricts_Taluka_Village">
+      <soap12:operation soapAction="http://tempuri.org/GetDistricts_Taluka_Village" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DisplayLRMR_html">
+      <soap12:operation soapAction="http://tempuri.org/DisplayLRMR_html" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DisplayLR8A_byte">
+      <soap12:operation soapAction="http://tempuri.org/DisplayLR8A_byte" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DisplayLR712_byte">
+      <soap12:operation soapAction="http://tempuri.org/DisplayLR712_byte" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DisplayNEW8A_Decrypted">
+      <soap12:operation soapAction="http://tempuri.org/DisplayNEW8A_Decrypted" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDistricts_Taluka_Village_Decrypted">
+      <soap12:operation soapAction="http://tempuri.org/GetDistricts_Taluka_Village_Decrypted" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DisplayLR712_byte_Decrypted">
+      <soap12:operation soapAction="http://tempuri.org/DisplayLR712_byte_Decrypted" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DisplayROR8A_Decrypted">
+      <soap12:operation soapAction="http://tempuri.org/DisplayROR8A_Decrypted" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Display712HTML">
+      <soap12:operation soapAction="http://tempuri.org/Display712HTML" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Display12HTML">
+      <soap12:operation soapAction="http://tempuri.org/Display12HTML" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Display7HTML">
+      <soap12:operation soapAction="http://tempuri.org/Display7HTML" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Display712HTMLLGD">
+      <soap12:operation soapAction="http://tempuri.org/Display712HTMLLGD" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Display12HTMLWithLGD">
+      <soap12:operation soapAction="http://tempuri.org/Display12HTMLWithLGD" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DisplayLR712_byte_With_LGD">
+      <soap12:operation soapAction="http://tempuri.org/DisplayLR712_byte_With_LGD" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WebService_ROR">
+    <wsdl:port name="WebService_RORSoap" binding="tns:WebService_RORSoap">
+      <soap:address location="https://g2b.mahabhumi.gov.in/WS_ROR_BANK/WebService_ROR.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WebService_RORSoap12" binding="tns:WebService_RORSoap12">
+      <soap12:address location="https://g2b.mahabhumi.gov.in/WS_ROR_BANK/WebService_ROR.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

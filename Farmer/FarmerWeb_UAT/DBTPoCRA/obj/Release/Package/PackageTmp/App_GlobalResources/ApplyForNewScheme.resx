@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Activity" xml:space="preserve">
+    <value>बाब</value>
+  </data>
+  <data name="Activity_Code" xml:space="preserve">
+    <value>प्रकल्पांतर्गत बाबीचा सांकेतांक</value>
+  </data>
+  <data name="Activity_Name" xml:space="preserve">
+    <value>प्रकल्पांतर्गत बाब</value>
+  </data>
+  <data name="ADD" xml:space="preserve">
+    <value>वाढवा</value>
+  </data>
+  <data name="Back_To_Activity" xml:space="preserve">
+    <value>प्रकल्पांतर्गत बाबीकडे मागे जा</value>
+  </data>
+  <data name="Common_Subsidy" xml:space="preserve">
+    <value>सामान्य सबसिडी</value>
+  </data>
+  <data name="Component" xml:space="preserve">
+    <value>घटक</value>
+  </data>
+  <data name="Component_Name" xml:space="preserve">
+    <value>घटकाचे नाव</value>
+  </data>
+  <data name="Continue_to_Application" xml:space="preserve">
+    <value>नोंदणी पुढे चालू</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>तपशील</value>
+  </data>
+  <data name="Required" xml:space="preserve">
+    <value>आवश्यक</value>
+  </data>
+  <data name="SC_ST_Subsidy" xml:space="preserve">
+    <value>एससी एसटी सबसिडी</value>
+  </data>
+  <data name="Search_Activity_from_list" xml:space="preserve">
+    <value>यादीमधून प्रकल्पांतर्गत बाब शोधा</value>
+  </data>
+  <data name="Subsidy_Details" xml:space="preserve">
+    <value>अर्थसहाय्याबाबत तपशील</value>
+  </data>
+  <data name="Sub_Component" xml:space="preserve">
+    <value>उपघटक</value>
+  </data>
+  <data name="Sub_Component_Name" xml:space="preserve">
+    <value>उपघटकाचे नाव</value>
+  </data>
+  <data name="Term" xml:space="preserve">
+    <value>टर्म</value>
+  </data>
+  <data name="Survey_Number" xml:space="preserve">
+    <value>७/१२ सर्वे क्रमांक</value>
+  </data>
+  <data name="Account_Number" xml:space="preserve">
+    <value>८-अ खाता क्रमांक</value>
+  </data>
+  <data name="Area_used_for_this_activety_from_Selected" xml:space="preserve">
+    <value>निवडलेल्या ७/१२ क्षेत्रापैकी या घटकासाठी वापरण्यात येणारे क्षेत्र</value>
+  </data>
+  <data name="Back_To_Activety_Details" xml:space="preserve">
+    <value>घटकाविषयीच्या तपशीलाकडे परत जा</value>
+  </data>
+  <data name="Estimated_cost_of_the_activity_applied_for" xml:space="preserve">
+    <value>नमूद केलेल्या घटकाची अंदाजित किंमत</value>
+  </data>
+  <data name="Expected_financial_assistance_as_per_the_cost_norms" xml:space="preserve">
+    <value>प्रकल्पाच्या मापदंदानुसार अपेक्षित आर्थिक सहाय्य</value>
+  </data>
+  <data name="How_would_the_applicant_arrange_for_the_balance_funds" xml:space="preserve">
+    <value>अर्जदार उर्वरीत भाग--भांडवल कसे मिळवणार आहे?</value>
+  </data>
+  <data name="Info1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Info2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Info3" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Info4" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Info5" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Info6" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Land_Detail" xml:space="preserve">
+    <value>जमिनीबाबत सर्वसाधारण माहिती</value>
+  </data>
+  <data name="Other_Details" xml:space="preserve">
+    <value>इतर तपशील</value>
+  </data>
+  <data name="Provide_details_thereof_including_year_amount_scheme_etc" xml:space="preserve">
+    <value>असल्यास कृपया योजनेचे नाव, वर्ष, इ. बाबत माहिती द्यावी.</value>
+  </data>
+  <data name="Undertaking" xml:space="preserve">
+    <value>स्वयंघोषणापत्र</value>
+  </data>
+  <data name="Whether_the_applicant_or_his_family_member" xml:space="preserve">
+    <value>अर्जदाराने किंवा त्याच्या कुटुंबातील सदस्यांनी यापूर्वी इतर योजनेतून या प्रकारच्या घटकाचा / बाबीचा लाभ घेतला आहे का?</value>
+  </data>
+  <data name="scheme_under_Nanaji_Deshmukh_Krishi_Sanjivani_Prakalp_Your_Application_is_pending_for_Approvals" xml:space="preserve">
+    <value>नानाजी देशमुख कृषि संजीवनी प्रकल्पा अंतर्गत योजना. आपला अनुप्रयोग मंजूरीसाठी प्रलंबित आहे.</value>
+  </data>
+  <data name="Your_application_has_been_successfully_submitted" xml:space="preserve">
+    <value>आपला अर्ज यशस्वीरित्या सबमिट केला गेला आहे.</value>
+  </data>
+  <data name="You_have_successfully_applied_for" xml:space="preserve">
+    <value>आपण यशस्वीरित्या अर्ज केला आहे</value>
+  </data>
+  <data name="All_the_information" xml:space="preserve">
+    <value>माझ्या दिलेली सर्व माहिती सत्य आहे.</value>
+  </data>
+  <data name="BANK_Ac_NO" xml:space="preserve">
+    <value>बॅंक खाते क्र.</value>
+  </data>
+  <data name="Bank_Detail" xml:space="preserve">
+    <value>बँकेची तपशील</value>
+  </data>
+  <data name="BANK_NAME" xml:space="preserve">
+    <value>बॅंकेचे नाव</value>
+  </data>
+  <data name="IFSC_CODE" xml:space="preserve">
+    <value>IFSC सांकेतांक</value>
+  </data>
+  <data name="If_I_am_selected_for_assistance_under" xml:space="preserve">
+    <value>उपरोक्त बाबीकरिता अर्थसहाय्यासाठी माझी निवड झाली  असल्यास, मी प्रकल्पासाठी लागू असलेल्या सर्व मार्गदर्शक सुचनांनुसार आणि प्रकल्प अधिका-यांच्या तांत्रिक देखरेखीखाली दिलेल्या कालमर्यादेत बाब पूर्ण करीन</value>
+  </data>
+  <data name="I_am_aware_that_I" xml:space="preserve">
+    <value>मला माहित आहे की, वरील 1 मध्ये नमूद केल्याप्रमाणे घटकातील बाबीविषयीचे कामकाज पूर्ण केल्यानंतरच मी अर्थसहाय्य मिळवण्यास पात्र आहे. मला हे देखील माहित आहे की,  मी उपरोक्त 1 मध्ये नमूद केल्यानुसाड़ कामकाज पूर्ण न केल्यास अर्थसहाय्यासाठी पात्र नाही.</value>
+  </data>
+  <data name="I_am_aware_that_the" xml:space="preserve">
+    <value>मला याची जाणीव आहे की प्रकल्पांतर्गत लाभ मिळवण्यासाठी मी खोटी आणि / किंवा चुकीचे माहिती दिल्याचे आढळून आल्यास प्र व्य कक्षास माझा अर्ज रद्द करण्याचे किंवा दिलेले अर्थसहाय्य परत घेण्याचे अधिकार आहेत.</value>
+  </data>
+  <data name="I_confirm_that_I_have" xml:space="preserve">
+    <value>मी खात्रीलायकरित्या सांगतो/ सांगते की, मी अर्ज केलेल्या बाबींसाठी शासनाच्या अन्य कोणत्याही योजनेतून लाभ घेतलेला नाही वा लाभ मिळण्यासाठी अर्ज केलेला नाही.</value>
+  </data>
+  <data name="I_hereby_declare_that" xml:space="preserve">
+    <value>मी घोषित करतो/करते की, मी प्रकल्पाच्या प्रतिनिधींना माझ्या शेताचे,  उपकरणांचे  आणि नोंदींचे निरीक्षण करण्यास परवानगी व सहकार्य करीन.  मी दिलेल्या कालावधीसाठी प्रकल्पाच्या घटाकमधून मला देण्यात आलेल्या वस्तूंची देखभाल देखील करेल</value>
+  </data>
+</root>

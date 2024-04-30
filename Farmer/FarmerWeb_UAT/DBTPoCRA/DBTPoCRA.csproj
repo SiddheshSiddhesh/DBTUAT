@@ -1,0 +1,1332 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{00453C0E-AB8F-44C4-B58F-758FC7FC4065}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>UATFarmerWeb</RootNamespace>
+    <AssemblyName>UAT-FarmerWeb</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=20.1.0.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <HintPath>..\packages\AjaxControlToolkit.20.1.0\lib\net40\AjaxControlToolkit.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="authclient, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\authclient.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Core, Version=7.2.4630.5, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\IKVM.OpenJDK.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=4.1.2.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Bin\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Azure.KeyVault.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Microsoft.Azure.KeyVault.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.WindowsAzure.Storage, Version=9.3.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Microsoft.WindowsAzure.Storage.dll</HintPath>
+    </Reference>
+    <Reference Include="MOLCryptoEngine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=2cc68cdbef5bdbf8, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\MOLCryptoEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="QRCoder, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\QRCoder.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.DataVisualization" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Telerik.Web.Design, Version=2014.1.603.40, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Telerik.Web.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Web.UI, Version=2014.1.603.40, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Telerik.Web.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Web.UI.Skins, Version=2014.1.603.40, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Telerik.Web.UI.Skins.dll</HintPath>
+    </Reference>
+    <Reference Include="TransliterateTextboxControl">
+      <HintPath>..\..\..\Users\Bankar\Downloads\TransliterateTextboxControl_src\TransliterateTextboxControl\bin\Release\TransliterateTextboxControl.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="404.html" />
+    <Content Include="AdminTrans\Popup\PreLetters\Agroforesty.aspx" />
+    <Content Include="AdminTrans\Popup\PreLetters\Apiculture.aspx" />
+    <Content Include="AdminTrans\Popup\PreLetters\ApicultureLandLess.aspx" />
+    <Content Include="AdminTrans\Popup\PreLetters\ApicultureS.aspx" />
+    <Content Include="AdminTrans\Popup\PreLetters\ApplicationPrint.aspx" />
+    <Content Include="AdminTrans\Popup\PreLetters\BackyardPoultry.aspx" />
+    <Content Include="AdminTrans\Popup\PreLetters\backyardpoultrys.aspx" />
+    <Content Include="AdminTrans\Popup\PreLetters\BackyardpoultrysLandLess.aspx" />
+    <Content Include="AdminTrans\Popup\PreLetters\BamboTree.aspx" />
+    <Content Include="AdminTrans\Popup\PreLetters\CommFrmPondA332.aspx" />
+    <Content Include="AdminTrans\Popup\PreLetters\CommunityFormPond.aspx" />
+    <Content Include="AdminTrans\Popup\PreLetters\CommunityFormPondB331.aspx" />
+    <Content Include="AdminTrans\Popup\PreLetters\ConstructionofOpenWell.aspx" />
+    <Content Include="AdminTrans\Popup\PreLetters\DieselPumpSalin.aspx" />
+    <Content Include="AdminTrans\Popup\PreLetters\DripIrrigation.aspx" />
+    <Content Include="AdminTrans\Popup\PreLetters\DripIrrigationS.aspx" />
+    <Content Include="AdminTrans\Popup\PreLetters\ElectricMotorSalin.aspx" />
+    <Content Include="AdminTrans\Popup\PreLetters\Farmpond%28A%29.aspx" />
+    <Content Include="AdminTrans\Popup\PreLetters\Farmpond.aspx" />
+    <Content Include="AdminTrans\Popup\PreLetters\FarmPondA331BlackSoil.aspx" />
+    <Content Include="AdminTrans\Popup\PreLetters\FarmPondA332BlackSoil.aspx" />
+    <Content Include="AdminTrans\Popup\PreLetters\FarmPondLining.aspx" />
+    <Content Include="AdminTrans\Popup\PreLetters\FarmPondS.aspx" />
+    <Content Include="AdminTrans\Popup\PreLetters\FarmPondSA332.aspx" />
+    <Content Include="AdminTrans\Popup\PreLetters\FarmPondSSsoil.aspx" />
+    <Content Include="AdminTrans\Popup\PreLetters\FrmPondA331.aspx" />
+    <Content Include="AdminTrans\Popup\PreLetters\GoatFarming.aspx" />
+    <Content Include="AdminTrans\Popup\PreLetters\Horticulture.aspx" />
+    <Content Include="AdminTrans\Popup\PreLetters\InLandFishery.aspx" />
+    <Content Include="AdminTrans\Popup\PreLetters\MotorPump.aspx" />
+    <Content Include="AdminTrans\Popup\PreLetters\Nadep.aspx" />
+    <Content Include="AdminTrans\Popup\PreLetters\NadepS.aspx" />
+    <Content Include="AdminTrans\Popup\PreLetters\OrganicInputProduction.aspx" />
+    <Content Include="AdminTrans\Popup\PreLetters\Pipes.aspx" />
+    <Content Include="AdminTrans\Popup\PreLetters\PlantationHorticulture.aspx" />
+    <Content Include="AdminTrans\Popup\PreLetters\PlantMaterialPolyHous.aspx" />
+    <Content Include="AdminTrans\Popup\PreLetters\PlantMatPolyHousVegitable.aspx" />
+    <Content Include="AdminTrans\Popup\PreLetters\PlantMatShadeNetHouse.aspx" />
+    <Content Include="AdminTrans\Popup\PreLetters\PlantMatShadeNetVegetable.aspx" />
+    <Content Include="AdminTrans\Popup\PreLetters\PlyHouse.aspx" />
+    <Content Include="AdminTrans\Popup\PreLetters\PolyHouse.aspx" />
+    <Content Include="AdminTrans\Popup\PreLetters\PolyTunelProteCultivation.aspx" />
+    <Content Include="AdminTrans\Popup\PreLetters\PolytunnelPlantMatFlower.aspx" />
+    <Content Include="AdminTrans\Popup\PreLetters\PolytunnelPlantMatVegetable.aspx" />
+    <Content Include="AdminTrans\Popup\PreLetters\PreSanctionletter.aspx" />
+    <Content Include="AdminTrans\Popup\PreLetters\PreSanctionletterMarathi.aspx" />
+    <Content Include="AdminTrans\Popup\PreLetters\ProductionofSeeds.aspx" />
+    <Content Include="AdminTrans\Popup\PreLetters\ProtectedCultivation.aspx" />
+    <Content Include="AdminTrans\Popup\PreLetters\Pumps.aspx" />
+    <Content Include="AdminTrans\Popup\PreLetters\RechargeOpenWell.aspx" />
+    <Content Include="AdminTrans\Popup\PreLetters\SeedProduction.aspx" />
+    <Content Include="AdminTrans\Popup\PreLetters\Sericulture.aspx" />
+    <Content Include="AdminTrans\Popup\PreLetters\SericultureMulberry.aspx" />
+    <Content Include="AdminTrans\Popup\PreLetters\SericultureS.aspx" />
+    <Content Include="AdminTrans\Popup\PreLetters\ShadeNetHouse.aspx" />
+    <Content Include="AdminTrans\Popup\PreLetters\SmallRuminantLandLess.aspx" />
+    <Content Include="AdminTrans\Popup\PreLetters\SmallRuminants.aspx" />
+    <Content Include="AdminTrans\Popup\PreLetters\SprinklerIrrigation.aspx" />
+    <Content Include="AdminTrans\Popup\PreLetters\SprinklerIrrigationSalin.aspx" />
+    <Content Include="AdminTrans\Popup\PreLetters\TreePlantAgroforesty.aspx" />
+    <Content Include="AdminTrans\Popup\PreLetters\VermiCompostProduction.aspx" />
+    <Content Include="AdminTrans\Popup\PreLetters\Well.aspx" />
+    <Content Include="AdminTrans\Popup\PreLetters\WellRecharge.aspx" />
+    <Content Include="AdminTrans\UserControls\Production\uidai_auth_prod.cer" />
+    <Content Include="APPData\AaudharApi.asmx" />
+    <Content Include="APPData\ApplicationDetailSD.asmx" />
+    <Content Include="APPData\CommanAPI.asmx" />
+    <Content Include="APPData\GeographicAPI.asmx" />
+    <Content Include="APPData\Registration.asmx" />
+    <Content Include="APPData\Reports.asmx" />
+    <Content Include="APPData\UserMaster.asmx" />
+    <Content Include="assets\css\app.css" />
+    <Content Include="assets\fonts\Mfonts\Material-Design-Iconic-Font.svg" />
+    <Content Include="assets\fonts\roboto\roboto-v16-latin-100.svg" />
+    <Content Include="assets\fonts\roboto\roboto-v16-latin-100italic.svg" />
+    <Content Include="assets\fonts\roboto\roboto-v16-latin-300.svg" />
+    <Content Include="assets\fonts\roboto\roboto-v16-latin-300italic.svg" />
+    <Content Include="assets\fonts\roboto\roboto-v16-latin-500.svg" />
+    <Content Include="assets\fonts\roboto\roboto-v16-latin-500italic.svg" />
+    <Content Include="assets\fonts\roboto\roboto-v16-latin-700.svg" />
+    <Content Include="assets\fonts\roboto\roboto-v16-latin-700italic.svg" />
+    <Content Include="assets\fonts\roboto\roboto-v16-latin-900.svg" />
+    <Content Include="assets\fonts\roboto\roboto-v16-latin-900italic.svg" />
+    <Content Include="assets\fonts\roboto\roboto-v16-latin-italic.svg" />
+    <Content Include="assets\fonts\roboto\roboto-v16-latin-regular.svg" />
+    <Content Include="assets\img\basic\favicon.ico" />
+    <Content Include="assets\img\basic\HeaderImage2.jpg" />
+    <Content Include="assets\img\basic\logo.png" />
+    <Content Include="assets\img\basic\Preloader-6.gif" />
+    <Content Include="assets\img\controls.html" />
+    <Content Include="assets\img\CRA.jpg" />
+    <Content Include="assets\img\dummy\999.png" />
+    <Content Include="assets\img\dummy\human.jpg" />
+    <Content Include="assets\img\farmer.png" />
+    <Content Include="assets\img\green_bg_Tab.gif" />
+    <Content Include="assets\img\green_left_tab.gif" />
+    <Content Include="assets\img\green_right_Tab.gif" />
+    <Content Include="assets\img\icon\icon-article.png" />
+    <Content Include="assets\img\icon\icon-download.png" />
+    <Content Include="assets\img\icon\icon-envelope.png" />
+    <Content Include="assets\img\icon\icon-left-arrow.png" />
+    <Content Include="assets\img\icon\icon-not.png" />
+    <Content Include="assets\img\icon\icon-photo.png" />
+    <Content Include="assets\img\icon\icon-right-arrow.png" />
+    <Content Include="assets\img\icon\icon-video.png" />
+    <Content Include="assets\img\icon\icon-yes.png" />
+    <Content Include="assets\img\LogoIndia.png" />
+    <Content Include="assets\img\manager.png" />
+    <Content Include="assets\img\social-care.png" />
+    <Content Include="assets\js\app.js" />
+    <Content Include="App_GlobalResources\ApplyForNewScheme.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>ApplyForNewScheme1.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\CommunityRegistration.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>CommunityRegistration1.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\FarmerRegistration.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>FarmerRegistration1.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\OtherRegistration.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>OtherRegistration1.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\SanctionDesk.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>SanctionDesk1.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\Strings.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Strings1.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\UserDashBord.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>UserDashBord1.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\UserManagement.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>UserManagement1.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\VCRMCMeetingData.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>VCRMCMeetingData2.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="assets\js\google_analytics.js" />
+    <Content Include="assets\js\jquery.sumoselect.js" />
+    <Content Include="assets\js\leaflet-tilelayer-here.js" />
+    <Content Include="assets\js\md5.js" />
+    <Content Include="assets\js\sumoselect.css" />
+    <Content Include="assets\js\transliteration.I.js" />
+    <Content Include="CronJob\PresanctionCancellationAndSendSMSforInvocation.aspx" />
+    <Content Include="CronJob\SendB2BAndRejectTransactionWithNotification2.aspx" />
+    <Content Include="CronJob\SendB2BPendingNotification1.aspx" />
+    <Content Include="FarmerLogin.aspx" />
+    <Content Include="OpenStreetMap.aspx" />
+    <Content Include="TESTDATA\ApplicationDetails.xml" />
+    <Content Include="TESTDATA\DashBoardSubDevesion.xml" />
+    <Content Include="TESTDATA\KotakPayment.aspx" />
+    <Content Include="TESTDATA\LandMaster.aspx" />
+    <Content Include="TESTDATA\MahaBulekhData.aspx" />
+    <Content Include="TESTDATA\PayResonce.aspx" />
+    <Content Include="TESTDATA\WebForm1.aspx" />
+    <Content Include="TESTDATA\XMLFile1.xml" />
+    <Content Include="UsersTrans\FarmerProfile.aspx" />
+    <Content Include="Service References\MahaBulekh\UATFarmerWeb.MahaBulekh.Display12HTMLResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\MahaBulekh\UATFarmerWeb.MahaBulekh.Display12HTMLWithLGDResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\MahaBulekh\UATFarmerWeb.MahaBulekh.Display712HTMLLGDResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\MahaBulekh\UATFarmerWeb.MahaBulekh.Display712HTMLResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\MahaBulekh\UATFarmerWeb.MahaBulekh.Display7HTMLResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\MahaBulekh\UATFarmerWeb.MahaBulekh.DisplayLR712_byteResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\MahaBulekh\UATFarmerWeb.MahaBulekh.DisplayLR712_byte_DecryptedResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\MahaBulekh\UATFarmerWeb.MahaBulekh.DisplayLR712_byte_With_LGDResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\MahaBulekh\UATFarmerWeb.MahaBulekh.DisplayLR8A_byteResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\MahaBulekh\UATFarmerWeb.MahaBulekh.DisplayLRMR_htmlResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\MahaBulekh\UATFarmerWeb.MahaBulekh.DisplayNEW8AResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\MahaBulekh\UATFarmerWeb.MahaBulekh.DisplayNEW8A_DecryptedResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\MahaBulekh\UATFarmerWeb.MahaBulekh.DisplayROR712Response.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\MahaBulekh\UATFarmerWeb.MahaBulekh.DisplayROR712_withbjResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\MahaBulekh\UATFarmerWeb.MahaBulekh.DisplayROR8AResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\MahaBulekh\UATFarmerWeb.MahaBulekh.DisplayROR8A_DecryptedResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\MahaBulekh\UATFarmerWeb.MahaBulekh.GetDistricts_Taluka_VillageResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\MahaBulekh\UATFarmerWeb.MahaBulekh.GetDistricts_Taluka_Village_DecryptedResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\MahaBulekh\UATFarmerWeb.MahaBulekh.GetSurveyNoByNumericPinResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\MahaBulekh\UATFarmerWeb.MahaBulekh.pending_mutation_detailsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <None Include="Service References\MahaBulekh\WebService_ROR.disco" />
+    <None Include="Service References\MahaBulekh\configuration91.svcinfo" />
+    <None Include="Service References\MahaBulekh\configuration.svcinfo" />
+    <None Include="Service References\MahaBulekh\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <EmbeddedResource Include="assets\js\chosen.jquery.js" />
+    <Content Include="assets\js\jquery.min.js" />
+    <Content Include="assets\js\loader.js" />
+    <Content Include="ErrorLog.aspx" />
+    <Content Include="GetFarmerApp.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="LogOut.aspx" />
+    <Content Include="packages.config" />
+    <Content Include="assets\fonts\roboto\roboto-v16-latin-100.eot" />
+    <Content Include="assets\fonts\roboto\roboto-v16-latin-100.ttf" />
+    <Content Include="assets\fonts\roboto\roboto-v16-latin-100.woff" />
+    <Content Include="assets\fonts\roboto\roboto-v16-latin-100.woff2" />
+    <Content Include="assets\fonts\roboto\roboto-v16-latin-100d41d.eot" />
+    <Content Include="assets\fonts\roboto\roboto-v16-latin-100italic.eot" />
+    <Content Include="assets\fonts\roboto\roboto-v16-latin-100italic.ttf" />
+    <Content Include="assets\fonts\roboto\roboto-v16-latin-100italic.woff" />
+    <Content Include="assets\fonts\roboto\roboto-v16-latin-100italic.woff2" />
+    <Content Include="assets\fonts\roboto\roboto-v16-latin-100italicd41d.eot" />
+    <Content Include="assets\fonts\roboto\roboto-v16-latin-300.eot" />
+    <Content Include="assets\fonts\roboto\roboto-v16-latin-300.ttf" />
+    <Content Include="assets\fonts\roboto\roboto-v16-latin-300.woff" />
+    <Content Include="assets\fonts\roboto\roboto-v16-latin-300.woff2" />
+    <Content Include="assets\fonts\roboto\roboto-v16-latin-300d41d.eot" />
+    <Content Include="assets\fonts\roboto\roboto-v16-latin-300italic.eot" />
+    <Content Include="assets\fonts\roboto\roboto-v16-latin-300italic.ttf" />
+    <Content Include="assets\fonts\roboto\roboto-v16-latin-300italic.woff" />
+    <Content Include="assets\fonts\roboto\roboto-v16-latin-300italic.woff2" />
+    <Content Include="assets\fonts\roboto\roboto-v16-latin-300italicd41d.eot" />
+    <Content Include="assets\fonts\roboto\roboto-v16-latin-500.eot" />
+    <Content Include="assets\fonts\roboto\roboto-v16-latin-500.ttf" />
+    <Content Include="assets\fonts\roboto\roboto-v16-latin-500.woff" />
+    <Content Include="assets\fonts\roboto\roboto-v16-latin-500.woff2" />
+    <Content Include="assets\fonts\roboto\roboto-v16-latin-500d41d.eot" />
+    <Content Include="assets\fonts\roboto\roboto-v16-latin-500italic.eot" />
+    <Content Include="assets\fonts\roboto\roboto-v16-latin-500italic.ttf" />
+    <Content Include="assets\fonts\roboto\roboto-v16-latin-500italic.woff" />
+    <Content Include="assets\fonts\roboto\roboto-v16-latin-500italic.woff2" />
+    <Content Include="assets\fonts\roboto\roboto-v16-latin-500italicd41d.eot" />
+    <Content Include="assets\fonts\roboto\roboto-v16-latin-700.eot" />
+    <Content Include="assets\fonts\roboto\roboto-v16-latin-700.ttf" />
+    <Content Include="assets\fonts\roboto\roboto-v16-latin-700.woff" />
+    <Content Include="assets\fonts\roboto\roboto-v16-latin-700.woff2" />
+    <Content Include="assets\fonts\roboto\roboto-v16-latin-700d41d.eot" />
+    <Content Include="assets\fonts\roboto\roboto-v16-latin-700italic.eot" />
+    <Content Include="assets\fonts\roboto\roboto-v16-latin-700italic.ttf" />
+    <Content Include="assets\fonts\roboto\roboto-v16-latin-700italic.woff" />
+    <Content Include="assets\fonts\roboto\roboto-v16-latin-700italic.woff2" />
+    <Content Include="assets\fonts\roboto\roboto-v16-latin-700italicd41d.eot" />
+    <Content Include="assets\fonts\roboto\roboto-v16-latin-900.eot" />
+    <Content Include="assets\fonts\roboto\roboto-v16-latin-900.ttf" />
+    <Content Include="assets\fonts\roboto\roboto-v16-latin-900.woff" />
+    <Content Include="assets\fonts\roboto\roboto-v16-latin-900.woff2" />
+    <Content Include="assets\fonts\roboto\roboto-v16-latin-900d41d.eot" />
+    <Content Include="assets\fonts\roboto\roboto-v16-latin-900italic.eot" />
+    <Content Include="assets\fonts\roboto\roboto-v16-latin-900italic.ttf" />
+    <Content Include="assets\fonts\roboto\roboto-v16-latin-900italic.woff" />
+    <Content Include="assets\fonts\roboto\roboto-v16-latin-900italic.woff2" />
+    <Content Include="assets\fonts\roboto\roboto-v16-latin-900italicd41d.eot" />
+    <Content Include="assets\fonts\roboto\roboto-v16-latin-italic.eot" />
+    <Content Include="assets\fonts\roboto\roboto-v16-latin-italic.ttf" />
+    <Content Include="assets\fonts\roboto\roboto-v16-latin-italic.woff" />
+    <Content Include="assets\fonts\roboto\roboto-v16-latin-italic.woff2" />
+    <Content Include="assets\fonts\roboto\roboto-v16-latin-italicd41d.eot" />
+    <Content Include="assets\fonts\roboto\roboto-v16-latin-regular.eot" />
+    <Content Include="assets\fonts\roboto\roboto-v16-latin-regular.ttf" />
+    <Content Include="assets\fonts\roboto\roboto-v16-latin-regular.woff" />
+    <Content Include="assets\fonts\roboto\roboto-v16-latin-regular.woff2" />
+    <Content Include="assets\fonts\roboto\roboto-v16-latin-regulard41d.eot" />
+    <Content Include="assets\fonts\Mfonts\Material-Design-Iconic-Font.eot" />
+    <Content Include="assets\fonts\Mfonts\Material-Design-Iconic-Font.ttf" />
+    <Content Include="assets\fonts\Mfonts\Material-Design-Iconic-Font.woff" />
+    <Content Include="assets\fonts\Mfonts\Material-Design-Iconic-Font.woff2" />
+    <Content Include="AdminTrans\UserControls\ExportToExcel.ashx" />
+    <Content Include="AdminTrans\UserControls\Production\JME.cer" />
+    <Content Include="AdminTrans\UserControls\FileUploadHandler.ashx" />
+    <Content Include="Registration\CaptchaT.ashx" />
+    <Content Include="UsersTrans\CommunityProfile.aspx" />
+    <Content Include="UsersTrans\MobileVerification.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <None Include="Service References\MahaBulekh\WebService_ROR.wsdl" />
+    <Content Include="TESTDATA\DocMastersMahabhulekh_Village.xlsx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Registration\CommunityRegistration.aspx" />
+    <Content Include="Registration\PaymentSuccess.aspx" />
+    <Content Include="Registration\RegisterSucess.aspx" />
+    <Content Include="Registration\RegistrationForm.aspx" />
+    <Content Include="TestFarmerLogin.aspx" />
+    <Content Include="UsersTrans\ActivetyDetails.aspx" />
+    <Content Include="UsersTrans\ApplicationGroups.aspx" />
+    <Content Include="UsersTrans\ApplicationForm.aspx" />
+    <Content Include="UsersTrans\ApplicationSubmit.aspx" />
+    <Content Include="UsersTrans\ApplicationSucess.aspx" />
+    <Content Include="UsersTrans\BenfDashBoard.aspx" />
+    <Content Include="UsersTrans\ChangePassword.aspx" />
+    <Content Include="UsersTrans\CommunityRegistrationProfile.aspx" />
+    <Content Include="UsersTrans\IndividualRegistrationEdit.aspx" />
+    <Content Include="UsersTrans\Js\jquery-ui.css" />
+    <Content Include="UsersTrans\Js\jquery-ui.min.js" />
+    <Content Include="UsersTrans\Js\jquery.min.js" />
+    <Content Include="UsersTrans\OthersProfile.aspx" />
+    <Content Include="UsersTrans\UpdateLandCerti.aspx" />
+    <Content Include="UsersTrans\UserDashBoard.aspx" />
+    <Content Include="UsersTrans\UserMaster.Master" />
+    <Content Include="UsersTrans\WorkCompletionUp.aspx" />
+    <Content Include="UsersTrans\WorkCompletionupMaster.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdminTrans\Popup\PreLetters\Agroforesty.aspx.cs">
+      <DependentUpon>Agroforesty.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\Agroforesty.aspx.designer.cs">
+      <DependentUpon>Agroforesty.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\Apiculture.aspx.cs">
+      <DependentUpon>Apiculture.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\Apiculture.aspx.designer.cs">
+      <DependentUpon>Apiculture.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\ApicultureLandLess.aspx.cs">
+      <DependentUpon>ApicultureLandLess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\ApicultureLandLess.aspx.designer.cs">
+      <DependentUpon>ApicultureLandLess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\ApicultureS.aspx.cs">
+      <DependentUpon>ApicultureS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\ApicultureS.aspx.designer.cs">
+      <DependentUpon>ApicultureS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\ApplicationPrint.aspx.cs">
+      <DependentUpon>ApplicationPrint.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\ApplicationPrint.aspx.designer.cs">
+      <DependentUpon>ApplicationPrint.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\BackyardPoultry.aspx.cs">
+      <DependentUpon>BackyardPoultry.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\BackyardPoultry.aspx.designer.cs">
+      <DependentUpon>BackyardPoultry.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\backyardpoultrys.aspx.cs">
+      <DependentUpon>backyardpoultrys.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\backyardpoultrys.aspx.designer.cs">
+      <DependentUpon>backyardpoultrys.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\BackyardpoultrysLandLess.aspx.cs">
+      <DependentUpon>BackyardpoultrysLandLess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\BackyardpoultrysLandLess.aspx.designer.cs">
+      <DependentUpon>BackyardpoultrysLandLess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\BamboTree.aspx.cs">
+      <DependentUpon>BamboTree.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\BamboTree.aspx.designer.cs">
+      <DependentUpon>BamboTree.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\CommFrmPondA332.aspx.cs">
+      <DependentUpon>CommFrmPondA332.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\CommFrmPondA332.aspx.designer.cs">
+      <DependentUpon>CommFrmPondA332.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\CommunityFormPond.aspx.cs">
+      <DependentUpon>CommunityFormPond.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\CommunityFormPond.aspx.designer.cs">
+      <DependentUpon>CommunityFormPond.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\CommunityFormPondB331.aspx.cs">
+      <DependentUpon>CommunityFormPondB331.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\CommunityFormPondB331.aspx.designer.cs">
+      <DependentUpon>CommunityFormPondB331.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\ConstructionofOpenWell.aspx.cs">
+      <DependentUpon>ConstructionofOpenWell.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\ConstructionofOpenWell.aspx.designer.cs">
+      <DependentUpon>ConstructionofOpenWell.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\DieselPumpSalin.aspx.cs">
+      <DependentUpon>DieselPumpSalin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\DieselPumpSalin.aspx.designer.cs">
+      <DependentUpon>DieselPumpSalin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\DripIrrigation.aspx.cs">
+      <DependentUpon>DripIrrigation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\DripIrrigation.aspx.designer.cs">
+      <DependentUpon>DripIrrigation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\DripIrrigationS.aspx.cs">
+      <DependentUpon>DripIrrigationS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\DripIrrigationS.aspx.designer.cs">
+      <DependentUpon>DripIrrigationS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\ElectricMotorSalin.aspx.cs">
+      <DependentUpon>ElectricMotorSalin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\ElectricMotorSalin.aspx.designer.cs">
+      <DependentUpon>ElectricMotorSalin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\Farmpond%28A%29.aspx.cs">
+      <DependentUpon>Farmpond%28A%29.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\Farmpond%28A%29.aspx.designer.cs">
+      <DependentUpon>Farmpond%28A%29.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\Farmpond.aspx.cs">
+      <DependentUpon>Farmpond.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\Farmpond.aspx.designer.cs">
+      <DependentUpon>Farmpond.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\FarmPondA331BlackSoil.aspx.cs">
+      <DependentUpon>FarmPondA331BlackSoil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\FarmPondA331BlackSoil.aspx.designer.cs">
+      <DependentUpon>FarmPondA331BlackSoil.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\FarmPondA332BlackSoil.aspx.cs">
+      <DependentUpon>FarmPondA332BlackSoil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\FarmPondA332BlackSoil.aspx.designer.cs">
+      <DependentUpon>FarmPondA332BlackSoil.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\FarmPondLining.aspx.cs">
+      <DependentUpon>FarmPondLining.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\FarmPondLining.aspx.designer.cs">
+      <DependentUpon>FarmPondLining.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\FarmPondS.aspx.cs">
+      <DependentUpon>FarmPondS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\FarmPondS.aspx.designer.cs">
+      <DependentUpon>FarmPondS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\FarmPondSA332.aspx.cs">
+      <DependentUpon>FarmPondSA332.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\FarmPondSA332.aspx.designer.cs">
+      <DependentUpon>FarmPondSA332.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\FarmPondSSsoil.aspx.cs">
+      <DependentUpon>FarmPondSSsoil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\FarmPondSSsoil.aspx.designer.cs">
+      <DependentUpon>FarmPondSSsoil.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\FrmPondA331.aspx.cs">
+      <DependentUpon>FrmPondA331.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\FrmPondA331.aspx.designer.cs">
+      <DependentUpon>FrmPondA331.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\GoatFarming.aspx.cs">
+      <DependentUpon>GoatFarming.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\GoatFarming.aspx.designer.cs">
+      <DependentUpon>GoatFarming.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\Horticulture.aspx.cs">
+      <DependentUpon>Horticulture.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\Horticulture.aspx.designer.cs">
+      <DependentUpon>Horticulture.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\InLandFishery.aspx.cs">
+      <DependentUpon>InLandFishery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\InLandFishery.aspx.designer.cs">
+      <DependentUpon>InLandFishery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\MotorPump.aspx.cs">
+      <DependentUpon>MotorPump.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\MotorPump.aspx.designer.cs">
+      <DependentUpon>MotorPump.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\Nadep.aspx.cs">
+      <DependentUpon>Nadep.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\Nadep.aspx.designer.cs">
+      <DependentUpon>Nadep.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\NadepS.aspx.cs">
+      <DependentUpon>NadepS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\NadepS.aspx.designer.cs">
+      <DependentUpon>NadepS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\OrganicInputProduction.aspx.cs">
+      <DependentUpon>OrganicInputProduction.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\OrganicInputProduction.aspx.designer.cs">
+      <DependentUpon>OrganicInputProduction.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\Pipes.aspx.cs">
+      <DependentUpon>Pipes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\Pipes.aspx.designer.cs">
+      <DependentUpon>Pipes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\PlantationHorticulture.aspx.cs">
+      <DependentUpon>PlantationHorticulture.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\PlantationHorticulture.aspx.designer.cs">
+      <DependentUpon>PlantationHorticulture.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\PlantMaterialPolyHous.aspx.cs">
+      <DependentUpon>PlantMaterialPolyHous.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\PlantMaterialPolyHous.aspx.designer.cs">
+      <DependentUpon>PlantMaterialPolyHous.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\PlantMatPolyHousVegitable.aspx.cs">
+      <DependentUpon>PlantMatPolyHousVegitable.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\PlantMatPolyHousVegitable.aspx.designer.cs">
+      <DependentUpon>PlantMatPolyHousVegitable.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\PlantMatShadeNetHouse.aspx.cs">
+      <DependentUpon>PlantMatShadeNetHouse.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\PlantMatShadeNetHouse.aspx.designer.cs">
+      <DependentUpon>PlantMatShadeNetHouse.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\PlantMatShadeNetVegetable.aspx.cs">
+      <DependentUpon>PlantMatShadeNetVegetable.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\PlantMatShadeNetVegetable.aspx.designer.cs">
+      <DependentUpon>PlantMatShadeNetVegetable.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\PlyHouse.aspx.cs">
+      <DependentUpon>PlyHouse.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\PlyHouse.aspx.designer.cs">
+      <DependentUpon>PlyHouse.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\PolyHouse.aspx.cs">
+      <DependentUpon>PolyHouse.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\PolyHouse.aspx.designer.cs">
+      <DependentUpon>PolyHouse.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\PolyTunelProteCultivation.aspx.cs">
+      <DependentUpon>PolyTunelProteCultivation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\PolyTunelProteCultivation.aspx.designer.cs">
+      <DependentUpon>PolyTunelProteCultivation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\PolytunnelPlantMatFlower.aspx.cs">
+      <DependentUpon>PolytunnelPlantMatFlower.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\PolytunnelPlantMatFlower.aspx.designer.cs">
+      <DependentUpon>PolytunnelPlantMatFlower.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\PolytunnelPlantMatVegetable.aspx.cs">
+      <DependentUpon>PolytunnelPlantMatVegetable.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\PolytunnelPlantMatVegetable.aspx.designer.cs">
+      <DependentUpon>PolytunnelPlantMatVegetable.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\PreSanctionletter.aspx.cs">
+      <DependentUpon>PreSanctionletter.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\PreSanctionletter.aspx.designer.cs">
+      <DependentUpon>PreSanctionletter.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\PreSanctionletterMarathi.aspx.cs">
+      <DependentUpon>PreSanctionletterMarathi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\PreSanctionletterMarathi.aspx.designer.cs">
+      <DependentUpon>PreSanctionletterMarathi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\ProductionofSeeds.aspx.cs">
+      <DependentUpon>ProductionofSeeds.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\ProductionofSeeds.aspx.designer.cs">
+      <DependentUpon>ProductionofSeeds.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\ProtectedCultivation.aspx.cs">
+      <DependentUpon>ProtectedCultivation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\ProtectedCultivation.aspx.designer.cs">
+      <DependentUpon>ProtectedCultivation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\Pumps.aspx.cs">
+      <DependentUpon>Pumps.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\Pumps.aspx.designer.cs">
+      <DependentUpon>Pumps.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\RechargeOpenWell.aspx.cs">
+      <DependentUpon>RechargeOpenWell.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\RechargeOpenWell.aspx.designer.cs">
+      <DependentUpon>RechargeOpenWell.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\SeedProduction.aspx.cs">
+      <DependentUpon>SeedProduction.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\SeedProduction.aspx.designer.cs">
+      <DependentUpon>SeedProduction.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\Sericulture.aspx.cs">
+      <DependentUpon>Sericulture.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\Sericulture.aspx.designer.cs">
+      <DependentUpon>Sericulture.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\SericultureMulberry.aspx.cs">
+      <DependentUpon>SericultureMulberry.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\SericultureMulberry.aspx.designer.cs">
+      <DependentUpon>SericultureMulberry.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\SericultureS.aspx.cs">
+      <DependentUpon>SericultureS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\SericultureS.aspx.designer.cs">
+      <DependentUpon>SericultureS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\ShadeNetHouse.aspx.cs">
+      <DependentUpon>ShadeNetHouse.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\ShadeNetHouse.aspx.designer.cs">
+      <DependentUpon>ShadeNetHouse.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\SmallRuminantLandLess.aspx.cs">
+      <DependentUpon>SmallRuminantLandLess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\SmallRuminantLandLess.aspx.designer.cs">
+      <DependentUpon>SmallRuminantLandLess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\SmallRuminants.aspx.cs">
+      <DependentUpon>SmallRuminants.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\SmallRuminants.aspx.designer.cs">
+      <DependentUpon>SmallRuminants.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\SprinklerIrrigation.aspx.cs">
+      <DependentUpon>SprinklerIrrigation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\SprinklerIrrigation.aspx.designer.cs">
+      <DependentUpon>SprinklerIrrigation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\SprinklerIrrigationSalin.aspx.cs">
+      <DependentUpon>SprinklerIrrigationSalin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\SprinklerIrrigationSalin.aspx.designer.cs">
+      <DependentUpon>SprinklerIrrigationSalin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\TreePlantAgroforesty.aspx.cs">
+      <DependentUpon>TreePlantAgroforesty.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\TreePlantAgroforesty.aspx.designer.cs">
+      <DependentUpon>TreePlantAgroforesty.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\VermiCompostProduction.aspx.cs">
+      <DependentUpon>VermiCompostProduction.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\VermiCompostProduction.aspx.designer.cs">
+      <DependentUpon>VermiCompostProduction.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\Well.aspx.cs">
+      <DependentUpon>Well.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\Well.aspx.designer.cs">
+      <DependentUpon>Well.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\WellRecharge.aspx.cs">
+      <DependentUpon>WellRecharge.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminTrans\Popup\PreLetters\WellRecharge.aspx.designer.cs">
+      <DependentUpon>WellRecharge.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminTrans\UserControls\FileUploadHandler.ashx.cs">
+      <DependentUpon>FileUploadHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminTrans\UserControls\AntiDosAttack.cs" />
+    <Compile Include="AdminTrans\UserControls\EncrDecr\CryptographyHelper.cs" />
+    <Compile Include="AdminTrans\UserControls\EncrDecr\RSACryptographyKeyGenerator.cs" />
+    <Compile Include="AdminTrans\UserControls\ExportToExcel.ashx.cs">
+      <DependentUpon>ExportToExcel.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminTrans\UserControls\FixedWidthWriter.cs" />
+    <Compile Include="AdminTrans\UserControls\NPCI\MyCertificatePolicy.cs" />
+    <Compile Include="AdminTrans\UserControls\NPCI\NPCIClass.cs" />
+    <Compile Include="AdminTrans\UserControls\UidiErrorCodes.cs" />
+    <Compile Include="AdminTrans\UserControls\Util.cs" />
+    <Compile Include="APPData\AaudharApi.asmx.cs">
+      <DependentUpon>AaudharApi.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="APPData\ApplicationDetailSD.asmx.cs">
+      <DependentUpon>ApplicationDetailSD.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="APPData\AzureBlobHelper.cs" />
+    <Compile Include="APPData\CommanAPI.asmx.cs">
+      <DependentUpon>CommanAPI.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="APPData\GeographicAPI.asmx.cs">
+      <DependentUpon>GeographicAPI.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="APPData\Registration.asmx.cs">
+      <DependentUpon>Registration.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="APPData\Reports.asmx.cs">
+      <DependentUpon>Reports.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="APPData\UserMaster.asmx.cs">
+      <DependentUpon>UserMaster.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CronJob\PresanctionCancellationAndSendSMSforInvocation.aspx.cs">
+      <DependentUpon>PresanctionCancellationAndSendSMSforInvocation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CronJob\PresanctionCancellationAndSendSMSforInvocation.aspx.designer.cs">
+      <DependentUpon>PresanctionCancellationAndSendSMSforInvocation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CronJob\SendB2BAndRejectTransactionWithNotification2.aspx.cs">
+      <DependentUpon>SendB2BAndRejectTransactionWithNotification2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CronJob\SendB2BAndRejectTransactionWithNotification2.aspx.designer.cs">
+      <DependentUpon>SendB2BAndRejectTransactionWithNotification2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CronJob\SendB2BPendingNotification1.aspx.cs">
+      <DependentUpon>SendB2BPendingNotification1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CronJob\SendB2BPendingNotification1.aspx.designer.cs">
+      <DependentUpon>SendB2BPendingNotification1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FarmerLogin.aspx.cs">
+      <DependentUpon>FarmerLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FarmerLogin.aspx.designer.cs">
+      <DependentUpon>FarmerLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OpenStreetMap.aspx.cs">
+      <DependentUpon>OpenStreetMap.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OpenStreetMap.aspx.designer.cs">
+      <DependentUpon>OpenStreetMap.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\MahaBulekh\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="TESTDATA\clsCrypto.cs" />
+    <Compile Include="TESTDATA\KotakPayment.aspx.cs">
+      <DependentUpon>KotakPayment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TESTDATA\KotakPayment.aspx.designer.cs">
+      <DependentUpon>KotakPayment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TESTDATA\LandMaster.aspx.cs">
+      <DependentUpon>LandMaster.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TESTDATA\LandMaster.aspx.designer.cs">
+      <DependentUpon>LandMaster.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TESTDATA\MahaBulekhData.aspx.cs">
+      <DependentUpon>MahaBulekhData.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TESTDATA\MahaBulekhData.aspx.designer.cs">
+      <DependentUpon>MahaBulekhData.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TESTDATA\PayResonce.aspx.cs">
+      <DependentUpon>PayResonce.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TESTDATA\PayResonce.aspx.designer.cs">
+      <DependentUpon>PayResonce.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TESTDATA\WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TESTDATA\WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UsersTrans\FarmerProfile.aspx.cs">
+      <DependentUpon>FarmerProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UsersTrans\FarmerProfile.aspx.designer.cs">
+      <DependentUpon>FarmerProfile.aspx</DependentUpon>
+    </Compile>
+    <Content Include="App_Code\Util.cs" />
+    <Compile Include="App_GlobalResources\ApplyForNewScheme1.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ApplyForNewScheme.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\CommunityRegistration1.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CommunityRegistration.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\FarmerRegistration1.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FarmerRegistration.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\OtherRegistration1.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OtherRegistration.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\SanctionDesk1.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SanctionDesk.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Strings1.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Strings.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\UserDashBord1.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UserDashBord.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\UserManagement1.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UserManagement.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\VCRMCMeetingData2.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>VCRMCMeetingData.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ErrorLog.aspx.cs">
+      <DependentUpon>ErrorLog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ErrorLog.aspx.designer.cs">
+      <DependentUpon>ErrorLog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GetFarmerApp.aspx.cs">
+      <DependentUpon>GetFarmerApp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GetFarmerApp.aspx.designer.cs">
+      <DependentUpon>GetFarmerApp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="LogOut.aspx.cs">
+      <DependentUpon>LogOut.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LogOut.aspx.designer.cs">
+      <DependentUpon>LogOut.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Registration\CaptchaT.ashx.cs">
+      <DependentUpon>CaptchaT.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Registration\CommunityRegistration.aspx.cs">
+      <DependentUpon>CommunityRegistration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Registration\CommunityRegistration.aspx.designer.cs">
+      <DependentUpon>CommunityRegistration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Registration\PaymentSuccess.aspx.cs">
+      <DependentUpon>PaymentSuccess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Registration\PaymentSuccess.aspx.designer.cs">
+      <DependentUpon>PaymentSuccess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Registration\RegisterSucess.aspx.cs">
+      <DependentUpon>RegisterSucess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Registration\RegisterSucess.aspx.designer.cs">
+      <DependentUpon>RegisterSucess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Registration\RegistrationForm.aspx.cs">
+      <DependentUpon>RegistrationForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Registration\RegistrationForm.aspx.designer.cs">
+      <DependentUpon>RegistrationForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TestFarmerLogin.aspx.cs">
+      <DependentUpon>TestFarmerLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TestFarmerLogin.aspx.designer.cs">
+      <DependentUpon>TestFarmerLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UsersTrans\ActivetyDetails.aspx.cs">
+      <DependentUpon>ActivetyDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UsersTrans\ActivetyDetails.aspx.designer.cs">
+      <DependentUpon>ActivetyDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UsersTrans\ApplicationGroups.aspx.cs">
+      <DependentUpon>ApplicationGroups.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UsersTrans\ApplicationGroups.aspx.designer.cs">
+      <DependentUpon>ApplicationGroups.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UsersTrans\ApplicationForm.aspx.cs">
+      <DependentUpon>ApplicationForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UsersTrans\ApplicationForm.aspx.designer.cs">
+      <DependentUpon>ApplicationForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UsersTrans\ApplicationSubmit.aspx.cs">
+      <DependentUpon>ApplicationSubmit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UsersTrans\ApplicationSubmit.aspx.designer.cs">
+      <DependentUpon>ApplicationSubmit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UsersTrans\ApplicationSucess.aspx.cs">
+      <DependentUpon>ApplicationSucess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UsersTrans\ApplicationSucess.aspx.designer.cs">
+      <DependentUpon>ApplicationSucess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UsersTrans\BenfDashBoard.aspx.cs">
+      <DependentUpon>BenfDashBoard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UsersTrans\BenfDashBoard.aspx.designer.cs">
+      <DependentUpon>BenfDashBoard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UsersTrans\ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UsersTrans\ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UsersTrans\CommunityRegistrationProfile.aspx.cs">
+      <DependentUpon>CommunityRegistrationProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UsersTrans\CommunityRegistrationProfile.aspx.designer.cs">
+      <DependentUpon>CommunityRegistrationProfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UsersTrans\CommunityProfile.aspx.cs">
+      <DependentUpon>CommunityProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UsersTrans\CommunityProfile.aspx.designer.cs">
+      <DependentUpon>CommunityProfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UsersTrans\IndividualRegistrationEdit.aspx.cs">
+      <DependentUpon>IndividualRegistrationEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UsersTrans\IndividualRegistrationEdit.aspx.designer.cs">
+      <DependentUpon>IndividualRegistrationEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UsersTrans\MobileVerification.aspx.cs">
+      <DependentUpon>MobileVerification.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UsersTrans\MobileVerification.aspx.designer.cs">
+      <DependentUpon>MobileVerification.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UsersTrans\OthersProfile.aspx.cs">
+      <DependentUpon>OthersProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UsersTrans\OthersProfile.aspx.designer.cs">
+      <DependentUpon>OthersProfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UsersTrans\UpdateLandCerti.aspx.cs">
+      <DependentUpon>UpdateLandCerti.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UsersTrans\UpdateLandCerti.aspx.designer.cs">
+      <DependentUpon>UpdateLandCerti.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UsersTrans\UserDashBoard.aspx.cs">
+      <DependentUpon>UserDashBoard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UsersTrans\UserDashBoard.aspx.designer.cs">
+      <DependentUpon>UserDashBoard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UsersTrans\UserMaster.Master.cs">
+      <DependentUpon>UserMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UsersTrans\UserMaster.Master.designer.cs">
+      <DependentUpon>UserMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="UsersTrans\WorkCompletionUp.aspx.cs">
+      <DependentUpon>WorkCompletionUp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UsersTrans\WorkCompletionUp.aspx.designer.cs">
+      <DependentUpon>WorkCompletionUp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UsersTrans\WorkCompletionupMaster.aspx.cs">
+      <DependentUpon>WorkCompletionupMaster.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UsersTrans\WorkCompletionupMaster.aspx.designer.cs">
+      <DependentUpon>WorkCompletionupMaster.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="assets\img\demo\portfolio\" />
+    <Folder Include="bin\" />
+    <Folder Include="Properties\PublishProfiles\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CommanClsLibrary\CommanClsLibrary.csproj">
+      <Project>{986febe5-ca32-4599-8103-99f967a9794c}</Project>
+      <Name>CommanClsLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DropDownChosen\DropDownChosen.csproj">
+      <Project>{61034352-74e2-409d-8f9b-fdc5b4030524}</Project>
+      <Name>DropDownChosen</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\MahaBulekh\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>52170</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:52170/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

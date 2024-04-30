@@ -1,0 +1,147 @@
+C:\Users\ASHUTOSH\Documents\Visual Studio 2015\Projects\POCRA\CommanClsLibrary\bin\Release\CommanClsLibrary.dll
+C:\Users\ASHUTOSH\Documents\Visual Studio 2015\Projects\POCRA\CommanClsLibrary\bin\Release\CommanClsLibrary.pdb
+C:\Users\ASHUTOSH\Documents\Visual Studio 2015\Projects\POCRA\CommanClsLibrary\obj\Release\CommanClsLibrary.csprojResolveAssemblyReference.cache
+C:\Users\ASHUTOSH\Documents\Visual Studio 2015\Projects\POCRA\CommanClsLibrary\obj\Release\CommanClsLibrary.dll
+C:\Users\ASHUTOSH\Documents\Visual Studio 2015\Projects\POCRA\CommanClsLibrary\obj\Release\CommanClsLibrary.pdb
+C:\Users\ASHUTOSH\Documents\Visual Studio 2015\Projects\POCRA\CommanClsLibrary\bin\Release\Newtonsoft.Json.dll
+D:\Projects\Pocra\CommanClsLibrary\bin\Release\CommanClsLibrary.dll
+D:\Projects\Pocra\CommanClsLibrary\bin\Release\CommanClsLibrary.pdb
+D:\Projects\Pocra\CommanClsLibrary\bin\Release\Newtonsoft.Json.dll
+D:\Projects\Pocra\CommanClsLibrary\obj\Release\CommanClsLibrary.dll
+D:\Projects\Pocra\CommanClsLibrary\obj\Release\CommanClsLibrary.pdb
+D:\Projects\Pocra\CommanClsLibrary\obj\Release\CommanClsLibrary.csprojResolveAssemblyReference.cache
+D:\POCRA APPS\Applications\Pocra\CommanClsLibrary\bin\Release\CommanClsLibrary.dll
+D:\POCRA APPS\Applications\Pocra\CommanClsLibrary\bin\Release\CommanClsLibrary.pdb
+D:\POCRA APPS\Applications\Pocra\CommanClsLibrary\bin\Release\Newtonsoft.Json.dll
+D:\POCRA APPS\Applications\Pocra\CommanClsLibrary\obj\Release\CommanClsLibrary.csproj.AssemblyReference.cache
+D:\POCRA APPS\Applications\Pocra\CommanClsLibrary\obj\Release\CommanClsLibrary.csproj.CoreCompileInputs.cache
+D:\POCRA APPS\Applications\Pocra\CommanClsLibrary\obj\Release\CommanClsLibrary.csproj.CopyComplete
+D:\POCRA APPS\Applications\Pocra\CommanClsLibrary\obj\Release\CommanClsLibrary.dll
+D:\POCRA APPS\Applications\Pocra\CommanClsLibrary\obj\Release\CommanClsLibrary.pdb
+C:\PocraCode\PocraSourceCode\CommanClsLibrary\bin\Release\CommanClsLibrary.dll
+C:\PocraCode\PocraSourceCode\CommanClsLibrary\bin\Release\CommanClsLibrary.pdb
+C:\PocraCode\PocraSourceCode\CommanClsLibrary\bin\Release\Newtonsoft.Json.dll
+C:\PocraCode\PocraSourceCode\CommanClsLibrary\obj\Release\CommanClsLibrary.csproj.AssemblyReference.cache
+C:\PocraCode\PocraSourceCode\CommanClsLibrary\obj\Release\CommanClsLibrary.csproj.CoreCompileInputs.cache
+C:\PocraCode\PocraSourceCode\CommanClsLibrary\obj\Release\CommanClsLibrary.csproj.CopyComplete
+C:\PocraCode\PocraSourceCode\CommanClsLibrary\obj\Release\CommanClsLibrary.dll
+C:\PocraCode\PocraSourceCode\CommanClsLibrary\obj\Release\CommanClsLibrary.pdb
+C:\PocraCode\PocraSourceCode\CommanClsLibrary\bin\Release\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\POCRA CODE\PocraCode\PocraSourceCode\CommanClsLibrary\bin\Release\CommanClsLibrary.dll
+D:\POCRA CODE\PocraCode\PocraSourceCode\CommanClsLibrary\bin\Release\CommanClsLibrary.pdb
+D:\POCRA CODE\PocraCode\PocraSourceCode\CommanClsLibrary\bin\Release\Newtonsoft.Json.dll
+D:\POCRA CODE\PocraCode\PocraSourceCode\CommanClsLibrary\bin\Release\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\POCRA CODE\PocraCode\PocraSourceCode\CommanClsLibrary\obj\Release\CommanClsLibrary.csproj.AssemblyReference.cache
+D:\POCRA CODE\PocraCode\PocraSourceCode\CommanClsLibrary\obj\Release\CommanClsLibrary.csproj.CoreCompileInputs.cache
+D:\POCRA CODE\PocraCode\PocraSourceCode\CommanClsLibrary\obj\Release\CommanClsLibrary.csproj.CopyComplete
+D:\POCRA CODE\PocraCode\PocraSourceCode\CommanClsLibrary\obj\Release\CommanClsLibrary.dll
+D:\POCRA CODE\PocraCode\PocraSourceCode\CommanClsLibrary\obj\Release\CommanClsLibrary.pdb
+D:\POCRA WEB Split\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\CommanClsLibrary.dll
+D:\POCRA WEB Split\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\CommanClsLibrary.pdb
+D:\POCRA WEB Split\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\IKVM.AWT.WinForms.dll
+D:\POCRA WEB Split\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\IKVM.OpenJDK.Beans.dll
+D:\POCRA WEB Split\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\IKVM.OpenJDK.Charsets.dll
+D:\POCRA WEB Split\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\IKVM.OpenJDK.Cldrdata.dll
+D:\POCRA WEB Split\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\IKVM.OpenJDK.Corba.dll
+D:\POCRA WEB Split\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\IKVM.OpenJDK.Core.dll
+D:\POCRA WEB Split\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\IKVM.OpenJDK.Jdbc.dll
+D:\POCRA WEB Split\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\IKVM.OpenJDK.Localedata.dll
+D:\POCRA WEB Split\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\IKVM.OpenJDK.Management.dll
+D:\POCRA WEB Split\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\IKVM.OpenJDK.Media.dll
+D:\POCRA WEB Split\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\IKVM.OpenJDK.Misc.dll
+D:\POCRA WEB Split\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\IKVM.OpenJDK.Naming.dll
+D:\POCRA WEB Split\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\IKVM.OpenJDK.Nashorn.dll
+D:\POCRA WEB Split\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\IKVM.OpenJDK.Remoting.dll
+D:\POCRA WEB Split\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\IKVM.OpenJDK.Security.dll
+D:\POCRA WEB Split\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\IKVM.OpenJDK.SwingAWT.dll
+D:\POCRA WEB Split\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\IKVM.OpenJDK.Text.dll
+D:\POCRA WEB Split\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\IKVM.OpenJDK.Tools.dll
+D:\POCRA WEB Split\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\IKVM.OpenJDK.Util.dll
+D:\POCRA WEB Split\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\IKVM.OpenJDK.XML.API.dll
+D:\POCRA WEB Split\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\IKVM.OpenJDK.XML.Bind.dll
+D:\POCRA WEB Split\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\IKVM.OpenJDK.XML.Crypto.dll
+D:\POCRA WEB Split\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\IKVM.OpenJDK.XML.Parse.dll
+D:\POCRA WEB Split\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\IKVM.OpenJDK.XML.Transform.dll
+D:\POCRA WEB Split\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\IKVM.OpenJDK.XML.WebServices.dll
+D:\POCRA WEB Split\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\IKVM.OpenJDK.XML.XPath.dll
+D:\POCRA WEB Split\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\IKVM.Runtime.dll
+D:\POCRA WEB Split\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\IKVM.Runtime.JNI.dll
+D:\POCRA WEB Split\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\Newtonsoft.Json.dll
+D:\POCRA WEB Split\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\POCRA WEB Split\Farmer\FarmerWeb_UAT\CommanClsLibrary\obj\Release\CommanClsLibrary.csproj.AssemblyReference.cache
+D:\POCRA WEB Split\Farmer\FarmerWeb_UAT\CommanClsLibrary\obj\Release\CommanClsLibrary.csproj.CoreCompileInputs.cache
+D:\POCRA WEB Split\Farmer\FarmerWeb_UAT\CommanClsLibrary\obj\Release\CommanClsLibrary.csproj.CopyComplete
+D:\POCRA WEB Split\Farmer\FarmerWeb_UAT\CommanClsLibrary\obj\Release\CommanClsLibrary.dll
+D:\POCRA WEB Split\Farmer\FarmerWeb_UAT\CommanClsLibrary\obj\Release\CommanClsLibrary.pdb
+D:\POCRA WEB Split\Farmer\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\CommanClsLibrary.dll
+D:\POCRA WEB Split\Farmer\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\CommanClsLibrary.pdb
+D:\POCRA WEB Split\Farmer\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\IKVM.AWT.WinForms.dll
+D:\POCRA WEB Split\Farmer\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\IKVM.OpenJDK.Beans.dll
+D:\POCRA WEB Split\Farmer\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\IKVM.OpenJDK.Charsets.dll
+D:\POCRA WEB Split\Farmer\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\IKVM.OpenJDK.Cldrdata.dll
+D:\POCRA WEB Split\Farmer\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\IKVM.OpenJDK.Corba.dll
+D:\POCRA WEB Split\Farmer\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\IKVM.OpenJDK.Core.dll
+D:\POCRA WEB Split\Farmer\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\IKVM.OpenJDK.Jdbc.dll
+D:\POCRA WEB Split\Farmer\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\IKVM.OpenJDK.Localedata.dll
+D:\POCRA WEB Split\Farmer\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\IKVM.OpenJDK.Management.dll
+D:\POCRA WEB Split\Farmer\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\IKVM.OpenJDK.Media.dll
+D:\POCRA WEB Split\Farmer\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\IKVM.OpenJDK.Misc.dll
+D:\POCRA WEB Split\Farmer\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\IKVM.OpenJDK.Naming.dll
+D:\POCRA WEB Split\Farmer\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\IKVM.OpenJDK.Nashorn.dll
+D:\POCRA WEB Split\Farmer\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\IKVM.OpenJDK.Remoting.dll
+D:\POCRA WEB Split\Farmer\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\IKVM.OpenJDK.Security.dll
+D:\POCRA WEB Split\Farmer\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\IKVM.OpenJDK.SwingAWT.dll
+D:\POCRA WEB Split\Farmer\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\IKVM.OpenJDK.Text.dll
+D:\POCRA WEB Split\Farmer\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\IKVM.OpenJDK.Tools.dll
+D:\POCRA WEB Split\Farmer\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\IKVM.OpenJDK.Util.dll
+D:\POCRA WEB Split\Farmer\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\IKVM.OpenJDK.XML.API.dll
+D:\POCRA WEB Split\Farmer\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\IKVM.OpenJDK.XML.Bind.dll
+D:\POCRA WEB Split\Farmer\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\IKVM.OpenJDK.XML.Crypto.dll
+D:\POCRA WEB Split\Farmer\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\IKVM.OpenJDK.XML.Parse.dll
+D:\POCRA WEB Split\Farmer\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\IKVM.OpenJDK.XML.Transform.dll
+D:\POCRA WEB Split\Farmer\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\IKVM.OpenJDK.XML.WebServices.dll
+D:\POCRA WEB Split\Farmer\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\IKVM.OpenJDK.XML.XPath.dll
+D:\POCRA WEB Split\Farmer\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\IKVM.Runtime.dll
+D:\POCRA WEB Split\Farmer\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\IKVM.Runtime.JNI.dll
+D:\POCRA WEB Split\Farmer\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\Newtonsoft.Json.dll
+D:\POCRA WEB Split\Farmer\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\POCRA WEB Split\Farmer\Farmer\FarmerWeb_UAT\CommanClsLibrary\obj\Release\CommanClsLibrary.csproj.CoreCompileInputs.cache
+D:\POCRA WEB Split\Farmer\Farmer\FarmerWeb_UAT\CommanClsLibrary\obj\Release\CommanClsLibrary.csproj.CopyComplete
+D:\POCRA WEB Split\Farmer\Farmer\FarmerWeb_UAT\CommanClsLibrary\obj\Release\CommanClsLibrary.dll
+D:\POCRA WEB Split\Farmer\Farmer\FarmerWeb_UAT\CommanClsLibrary\obj\Release\CommanClsLibrary.pdb
+D:\DBTUAT\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\CommanClsLibrary.dll
+D:\DBTUAT\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\CommanClsLibrary.pdb
+D:\DBTUAT\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\IKVM.AWT.WinForms.dll
+D:\DBTUAT\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\IKVM.OpenJDK.Beans.dll
+D:\DBTUAT\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\IKVM.OpenJDK.Charsets.dll
+D:\DBTUAT\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\IKVM.OpenJDK.Cldrdata.dll
+D:\DBTUAT\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\IKVM.OpenJDK.Corba.dll
+D:\DBTUAT\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\IKVM.OpenJDK.Core.dll
+D:\DBTUAT\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\IKVM.OpenJDK.Jdbc.dll
+D:\DBTUAT\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\IKVM.OpenJDK.Localedata.dll
+D:\DBTUAT\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\IKVM.OpenJDK.Management.dll
+D:\DBTUAT\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\IKVM.OpenJDK.Media.dll
+D:\DBTUAT\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\IKVM.OpenJDK.Misc.dll
+D:\DBTUAT\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\IKVM.OpenJDK.Naming.dll
+D:\DBTUAT\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\IKVM.OpenJDK.Nashorn.dll
+D:\DBTUAT\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\IKVM.OpenJDK.Remoting.dll
+D:\DBTUAT\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\IKVM.OpenJDK.Security.dll
+D:\DBTUAT\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\IKVM.OpenJDK.SwingAWT.dll
+D:\DBTUAT\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\IKVM.OpenJDK.Text.dll
+D:\DBTUAT\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\IKVM.OpenJDK.Tools.dll
+D:\DBTUAT\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\IKVM.OpenJDK.Util.dll
+D:\DBTUAT\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\IKVM.OpenJDK.XML.API.dll
+D:\DBTUAT\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\IKVM.OpenJDK.XML.Bind.dll
+D:\DBTUAT\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\IKVM.OpenJDK.XML.Crypto.dll
+D:\DBTUAT\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\IKVM.OpenJDK.XML.Parse.dll
+D:\DBTUAT\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\IKVM.OpenJDK.XML.Transform.dll
+D:\DBTUAT\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\IKVM.OpenJDK.XML.WebServices.dll
+D:\DBTUAT\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\IKVM.OpenJDK.XML.XPath.dll
+D:\DBTUAT\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\IKVM.Runtime.dll
+D:\DBTUAT\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\IKVM.Runtime.JNI.dll
+D:\DBTUAT\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\Newtonsoft.Json.dll
+D:\DBTUAT\Farmer\FarmerWeb_UAT\CommanClsLibrary\bin\Release\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\DBTUAT\Farmer\FarmerWeb_UAT\CommanClsLibrary\obj\Release\CommanClsLibrary.csproj.CoreCompileInputs.cache
+D:\DBTUAT\Farmer\FarmerWeb_UAT\CommanClsLibrary\obj\Release\CommanClsLibrary.csproj.CopyComplete
+D:\DBTUAT\Farmer\FarmerWeb_UAT\CommanClsLibrary\obj\Release\CommanClsLibrary.dll
+D:\DBTUAT\Farmer\FarmerWeb_UAT\CommanClsLibrary\obj\Release\CommanClsLibrary.pdb

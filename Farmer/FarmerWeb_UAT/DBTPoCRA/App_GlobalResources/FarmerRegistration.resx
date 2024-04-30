@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Extracts" xml:space="preserve">
+    <value>७/१२ उतारा</value>
+  </data>
+  <data name="A_KHATA_KRAMANK" xml:space="preserve">
+    <value>८ अ खातेक्रमांक</value>
+  </data>
+  <data name="AADHAR_NUMBER" xml:space="preserve">
+    <value>आधार क्रमांक</value>
+  </data>
+  <data name="Area" xml:space="preserve">
+    <value>गुंठे</value>
+  </data>
+  <data name="AUTHENTICATION_TYPE" xml:space="preserve">
+    <value>प्रमाणीकरण प्रकार</value>
+  </data>
+  <data name="BASIC_DETAILS" xml:space="preserve">
+    <value>मुलभूत माहिती</value>
+  </data>
+  <data name="CATEGORY" xml:space="preserve">
+    <value>संवर्ग</value>
+  </data>
+  <data name="DATE_OF_BIRTH" xml:space="preserve">
+    <value>जन्मतारीख</value>
+  </data>
+  <data name="DECLARATION" xml:space="preserve">
+    <value>स्वयंघोषणापत्र</value>
+  </data>
+  <data name="DISTRICT" xml:space="preserve">
+    <value>जिल्हा</value>
+  </data>
+  <data name="EMAILID" xml:space="preserve">
+    <value>इ-मेल पत्ता</value>
+  </data>
+  <data name="Farmer_Registration" xml:space="preserve">
+    <value>शेतकरी नोंदणी</value>
+  </data>
+  <data name="FORM_8_A" xml:space="preserve">
+    <value>८ अ (खाते उतारा)</value>
+  </data>
+  <data name="GENDER" xml:space="preserve">
+    <value>लिंगभाव</value>
+  </data>
+  <data name="Hectare" xml:space="preserve">
+    <value>हेक्टर</value>
+  </data>
+  <data name="HOUSE_NO" xml:space="preserve">
+    <value>घर क्र.</value>
+  </data>
+  <data name="Info" xml:space="preserve">
+    <value>मला माझ्या भ्रमणध्वनी द्वारे प्रस्तुत प्रकल्पाची माहिती मिळणेकामी मी माझी सहमती देत आहे.</value>
+  </data>
+  <data name="Info1" xml:space="preserve">
+    <value>मी, उक्तप्रमाणे अर्जामध्ये माझा आधार क्रमांक दिलेला आह. मी, माझ्या आधार कार्डावरील माझा क्रमांक, नाव, हाताचे ठसे/ डॊळ्याची प्रतिकृति याचा वापर युआईडीएआई या संस्थेसमावेत माझी ओळख पटविण्यासाठी करण्यास प्रकल्प व्यवस्थापन कक्ष, नानाजी देशमुख कृषि संजीवनी प्रकल्प यांना करू देण्यास सहमती दर्शवीत आहे. प्रकल्प व्यवस्थापन कक्ष, नानाजी देशमुख कृषि संजीवनी प्रकल्प यांनी मला कळविले आहे की माझी ओळख पटविणारी माहिती फक्त प्रस्तूत प्रकल्पांतर्गत राबविण्यात येणारे उपक्रम आणि बाबी यासाठीच वापरली जाईल आणि माझ्या बायोमेट्रिक्सची माहिती संग्रहित / अन्य संस्था/ व्यक्ती यांना देण्यात येणार नाही आणि केवळ प्रमाणीकरणाच्या उद्देशासाठी सीआयडीआरला सादर केली जाईल.</value>
+  </data>
+  <data name="Info2" xml:space="preserve">
+    <value>मी माझ्या जमिनाधारणेबाबतची सर्व माहिती पूर्णत: भरलेली आहे.</value>
+  </data>
+  <data name="Info3" xml:space="preserve">
+    <value>मी दिलेली सर्व माहिती ही खरी व बरोबर असल्याची माझी पूर्ण खात्री आहे.</value>
+  </data>
+  <data name="Info4" xml:space="preserve">
+    <value>माझा भ्रमणध्वनी प्रस्तुत प्रकल्पाविषयी पत्रव्यवहार करण्यासाठी वापरणेस मी अनुमती देत आहे.</value>
+  </data>
+  <data name="Info5" xml:space="preserve">
+    <value>मला हे जाणीव आहे कि, पोकरा ची निधी माझ्या 'आधार'शी निगडित बँक खात्यात जमा केली जाईल.</value>
+  </data>
+  <data name="LANDLINE_NO" xml:space="preserve">
+    <value>दुरध्वनी क्र.</value>
+  </data>
+  <data name="LAND_DETAILS" xml:space="preserve">
+    <value>जमीन विवरण</value>
+  </data>
+  <data name="Land_Status" xml:space="preserve">
+    <value>जमीनधारणा</value>
+  </data>
+  <data name="MOBILE_1" xml:space="preserve">
+    <value>मोबाईल क्र. - १</value>
+  </data>
+  <data name="MOBILE_2" xml:space="preserve">
+    <value>मोबाईल क्र. - २</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>नाव</value>
+  </data>
+  <data name="PANNO" xml:space="preserve">
+    <value>पॅन क्र</value>
+  </data>
+  <data name="Photo_as_on_Aadhar_Card" xml:space="preserve">
+    <value>आधार कार्डनुसार फोटो</value>
+  </data>
+  <data name="PHYSICALLY_HANDICAP" xml:space="preserve">
+    <value>दिव्यांग</value>
+  </data>
+  <data name="PIN_CODE" xml:space="preserve">
+    <value>पिन कोड</value>
+  </data>
+  <data name="POST" xml:space="preserve">
+    <value>पोस्ट</value>
+  </data>
+  <data name="REGISTRATION_DETAILS" xml:space="preserve">
+    <value>नोंदणी तपशील</value>
+  </data>
+  <data name="STREET_NO" xml:space="preserve">
+    <value>रस्ता क्र.</value>
+  </data>
+  <data name="SURVEY_NUMBER" xml:space="preserve">
+    <value>७/१२ सर्वे क्रमांक</value>
+  </data>
+  <data name="TALUKA" xml:space="preserve">
+    <value>तालुका</value>
+  </data>
+  <data name="VILLAGE" xml:space="preserve">
+    <value>गावाचे नाव</value>
+  </data>
+  <data name="if_you_dont_have_an_aadhaar_number_please_click_here_to_enroll" xml:space="preserve">
+    <value>आधार क्रमांक नसल्यास नोंदणीसाठी येथे click करा.</value>
+  </data>
+  <data name="CLUSTER_CODE" xml:space="preserve">
+    <value>गावसमुह क्र.</value>
+  </data>
+  <data name="Disability_with_40_or_more_will_be_considered_for_scheme_benefit_Kindly_attached_certificate_from_Government_Medical_Practitioner_displaying_the_same" xml:space="preserve">
+    <value>अपंगत्वाचे प्रमाण 40 टक्के किंवा त्यापेक्षा अधिक असल्याबाबतचे सक्षम प्राधिक-याचे प्रमाणपत्र (कृपया शासकीय रुग्णालयातील शल्यविशारदकाचे प्रमाणपत्र जोडावे.)</value>
+  </data>
+  <data name="DISABILITY_PERCENTAGE" xml:space="preserve">
+    <value>अपंगत्वाचे प्रमाण</value>
+  </data>
+  <data name="UPLOAD_CERITIFICATE" xml:space="preserve">
+    <value>प्रमाणपत्र अपलोड करा</value>
+  </data>
+  <data name="ADD_" xml:space="preserve">
+    <value>7/12 जोडा</value>
+  </data>
+  <data name="ADD_8A" xml:space="preserve">
+    <value>८ अ जोडा</value>
+  </data>
+  <data name="Continue" xml:space="preserve">
+    <value>पुढे चालू ....</value>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>मागील</value>
+  </data>
+  <data name="SEND_OTP" xml:space="preserve">
+    <value>ओटीपी पाठवा</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>नोंदवा</value>
+  </data>
+</root>

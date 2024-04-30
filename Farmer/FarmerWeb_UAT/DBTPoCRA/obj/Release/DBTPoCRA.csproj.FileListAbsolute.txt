@@ -1,0 +1,232 @@
+C:\Users\ASHUTOSH\Documents\Visual Studio 2015\Projects\POCRA\DBTPoCRA\bin\roslyn\csc.exe
+C:\Users\ASHUTOSH\Documents\Visual Studio 2015\Projects\POCRA\DBTPoCRA\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ASHUTOSH\Documents\Visual Studio 2015\Projects\POCRA\DBTPoCRA\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ASHUTOSH\Documents\Visual Studio 2015\Projects\POCRA\DBTPoCRA\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ASHUTOSH\Documents\Visual Studio 2015\Projects\POCRA\DBTPoCRA\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ASHUTOSH\Documents\Visual Studio 2015\Projects\POCRA\DBTPoCRA\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ASHUTOSH\Documents\Visual Studio 2015\Projects\POCRA\DBTPoCRA\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ASHUTOSH\Documents\Visual Studio 2015\Projects\POCRA\DBTPoCRA\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ASHUTOSH\Documents\Visual Studio 2015\Projects\POCRA\DBTPoCRA\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ASHUTOSH\Documents\Visual Studio 2015\Projects\POCRA\DBTPoCRA\bin\roslyn\vbc.exe
+C:\Users\ASHUTOSH\Documents\Visual Studio 2015\Projects\POCRA\DBTPoCRA\bin\roslyn\VBCSCompiler.exe
+C:\Users\ASHUTOSH\Documents\Visual Studio 2015\Projects\POCRA\DBTPoCRA\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ASHUTOSH\Documents\Visual Studio 2015\Projects\POCRA\DBTPoCRA\bin\DBTPoCRA.dll.config
+C:\Users\ASHUTOSH\Documents\Visual Studio 2015\Projects\POCRA\DBTPoCRA\bin\DBTPoCRA.dll
+C:\Users\ASHUTOSH\Documents\Visual Studio 2015\Projects\POCRA\DBTPoCRA\bin\DBTPoCRA.pdb
+C:\Users\ASHUTOSH\Documents\Visual Studio 2015\Projects\POCRA\DBTPoCRA\bin\CommanClsLibrary.dll
+C:\Users\ASHUTOSH\Documents\Visual Studio 2015\Projects\POCRA\DBTPoCRA\bin\DropDownChosen.dll
+C:\Users\ASHUTOSH\Documents\Visual Studio 2015\Projects\POCRA\DBTPoCRA\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ASHUTOSH\Documents\Visual Studio 2015\Projects\POCRA\DBTPoCRA\bin\CommanClsLibrary.pdb
+C:\Users\ASHUTOSH\Documents\Visual Studio 2015\Projects\POCRA\DBTPoCRA\bin\DropDownChosen.pdb
+C:\Users\ASHUTOSH\Documents\Visual Studio 2015\Projects\POCRA\DBTPoCRA\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ASHUTOSH\Documents\Visual Studio 2015\Projects\POCRA\DBTPoCRA\obj\Release\DBTPoCRA.csprojResolveAssemblyReference.cache
+C:\Users\ASHUTOSH\Documents\Visual Studio 2015\Projects\POCRA\DBTPoCRA\obj\Release\DBTPoCRA.dll
+C:\Users\ASHUTOSH\Documents\Visual Studio 2015\Projects\POCRA\DBTPoCRA\obj\Release\DBTPoCRA.pdb
+D:\Projects\Pocra\DBTPoCRA\bin\roslyn\csc.exe
+D:\Projects\Pocra\DBTPoCRA\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Projects\Pocra\DBTPoCRA\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Projects\Pocra\DBTPoCRA\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Projects\Pocra\DBTPoCRA\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Projects\Pocra\DBTPoCRA\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Projects\Pocra\DBTPoCRA\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Projects\Pocra\DBTPoCRA\bin\roslyn\System.Collections.Immutable.dll
+D:\Projects\Pocra\DBTPoCRA\bin\roslyn\System.Reflection.Metadata.dll
+D:\Projects\Pocra\DBTPoCRA\bin\roslyn\vbc.exe
+D:\Projects\Pocra\DBTPoCRA\bin\roslyn\VBCSCompiler.exe
+D:\Projects\Pocra\DBTPoCRA\bin\roslyn\VBCSCompiler.exe.config
+D:\Projects\Pocra\DBTPoCRA\bin\DBTPoCRA.dll.config
+D:\Projects\Pocra\DBTPoCRA\bin\DBTPoCRA.dll
+D:\Projects\Pocra\DBTPoCRA\bin\DBTPoCRA.pdb
+D:\Projects\Pocra\DBTPoCRA\bin\CommanClsLibrary.dll
+D:\Projects\Pocra\DBTPoCRA\bin\DropDownChosen.dll
+D:\Projects\Pocra\DBTPoCRA\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Projects\Pocra\DBTPoCRA\bin\CommanClsLibrary.pdb
+D:\Projects\Pocra\DBTPoCRA\bin\DropDownChosen.pdb
+D:\Projects\Pocra\DBTPoCRA\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Projects\Pocra\DBTPoCRA\obj\Release\DBTPoCRA.dll
+D:\Projects\Pocra\DBTPoCRA\obj\Release\DBTPoCRA.pdb
+D:\Projects\Pocra\DBTPoCRA\obj\Release\DBTPoCRA.csprojResolveAssemblyReference.cache
+D:\Projects\Pocra\DBTPoCRA\bin\AjaxControlToolkit.dll
+D:\Projects\Pocra\DBTPoCRA\bin\IKVM.Runtime.dll
+D:\Projects\Pocra\DBTPoCRA\bin\IKVM.OpenJDK.Text.dll
+D:\Projects\Pocra\DBTPoCRA\bin\IKVM.OpenJDK.Security.dll
+D:\Projects\Pocra\DBTPoCRA\bin\IKVM.OpenJDK.XML.Bind.dll
+D:\Projects\Pocra\DBTPoCRA\bin\IKVM.OpenJDK.XML.API.dll
+D:\Projects\Pocra\DBTPoCRA\bin\IKVM.OpenJDK.Naming.dll
+D:\Projects\Pocra\DBTPoCRA\bin\IKVM.OpenJDK.Jdbc.dll
+D:\Projects\Pocra\DBTPoCRA\bin\IKVM.OpenJDK.Util.dll
+D:\Projects\Pocra\DBTPoCRA\bin\IKVM.OpenJDK.Beans.dll
+D:\Projects\Pocra\DBTPoCRA\bin\IKVM.OpenJDK.SwingAWT.dll
+D:\Projects\Pocra\DBTPoCRA\bin\IKVM.OpenJDK.Media.dll
+D:\Projects\Pocra\DBTPoCRA\bin\IKVM.Runtime.JNI.dll
+D:\Projects\Pocra\DBTPoCRA\bin\IKVM.OpenJDK.Management.dll
+D:\Projects\Pocra\DBTPoCRA\bin\IKVM.OpenJDK.XML.Parse.dll
+D:\Projects\Pocra\DBTPoCRA\bin\IKVM.OpenJDK.Misc.dll
+D:\Projects\Pocra\DBTPoCRA\bin\IKVM.AWT.WinForms.dll
+D:\Projects\Pocra\DBTPoCRA\bin\IKVM.OpenJDK.Charsets.dll
+D:\Projects\Pocra\DBTPoCRA\bin\IKVM.OpenJDK.Remoting.dll
+D:\Projects\Pocra\DBTPoCRA\bin\IKVM.OpenJDK.Corba.dll
+D:\POCRA APPS\Applications\Pocra\DBTPoCRA\bin\roslyn\csc.exe
+D:\POCRA APPS\Applications\Pocra\DBTPoCRA\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\POCRA APPS\Applications\Pocra\DBTPoCRA\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\POCRA APPS\Applications\Pocra\DBTPoCRA\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\POCRA APPS\Applications\Pocra\DBTPoCRA\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\POCRA APPS\Applications\Pocra\DBTPoCRA\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\POCRA APPS\Applications\Pocra\DBTPoCRA\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\POCRA APPS\Applications\Pocra\DBTPoCRA\bin\roslyn\System.Collections.Immutable.dll
+D:\POCRA APPS\Applications\Pocra\DBTPoCRA\bin\roslyn\System.Reflection.Metadata.dll
+D:\POCRA APPS\Applications\Pocra\DBTPoCRA\bin\roslyn\vbc.exe
+D:\POCRA APPS\Applications\Pocra\DBTPoCRA\bin\roslyn\VBCSCompiler.exe
+D:\POCRA APPS\Applications\Pocra\DBTPoCRA\bin\roslyn\VBCSCompiler.exe.config
+D:\POCRA APPS\Applications\Pocra\DBTPoCRA\bin\DBTPoCRA.dll.config
+D:\POCRA APPS\Applications\Pocra\DBTPoCRA\bin\DBTPoCRA.dll
+D:\POCRA APPS\Applications\Pocra\DBTPoCRA\bin\DBTPoCRA.pdb
+D:\POCRA APPS\Applications\Pocra\DBTPoCRA\bin\AjaxControlToolkit.dll
+D:\POCRA APPS\Applications\Pocra\DBTPoCRA\bin\CommanClsLibrary.dll
+D:\POCRA APPS\Applications\Pocra\DBTPoCRA\bin\DropDownChosen.dll
+D:\POCRA APPS\Applications\Pocra\DBTPoCRA\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\POCRA APPS\Applications\Pocra\DBTPoCRA\bin\CommanClsLibrary.pdb
+D:\POCRA APPS\Applications\Pocra\DBTPoCRA\bin\DropDownChosen.pdb
+D:\POCRA APPS\Applications\Pocra\DBTPoCRA\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\POCRA APPS\Applications\Pocra\DBTPoCRA\obj\Release\DBTPoCRA.csproj.AssemblyReference.cache
+D:\POCRA APPS\Applications\Pocra\DBTPoCRA\obj\Release\DBTPoCRA.csproj.CoreCompileInputs.cache
+D:\POCRA APPS\Applications\Pocra\DBTPoCRA\obj\Release\DBTPoCRA.csproj.CopyComplete
+D:\POCRA APPS\Applications\Pocra\DBTPoCRA\obj\Release\DBTPoCRA.dll
+D:\POCRA APPS\Applications\Pocra\DBTPoCRA\obj\Release\DBTPoCRA.pdb
+C:\PocraCode\PocraSourceCode\DBTPoCRA\bin\roslyn\csc.exe
+C:\PocraCode\PocraSourceCode\DBTPoCRA\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\PocraCode\PocraSourceCode\DBTPoCRA\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\PocraCode\PocraSourceCode\DBTPoCRA\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\PocraCode\PocraSourceCode\DBTPoCRA\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\PocraCode\PocraSourceCode\DBTPoCRA\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\PocraCode\PocraSourceCode\DBTPoCRA\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\PocraCode\PocraSourceCode\DBTPoCRA\bin\roslyn\System.Collections.Immutable.dll
+C:\PocraCode\PocraSourceCode\DBTPoCRA\bin\roslyn\System.Reflection.Metadata.dll
+C:\PocraCode\PocraSourceCode\DBTPoCRA\bin\roslyn\vbc.exe
+C:\PocraCode\PocraSourceCode\DBTPoCRA\bin\roslyn\VBCSCompiler.exe
+C:\PocraCode\PocraSourceCode\DBTPoCRA\bin\roslyn\VBCSCompiler.exe.config
+C:\PocraCode\PocraSourceCode\DBTPoCRA\bin\DBTPoCRA.dll.config
+C:\PocraCode\PocraSourceCode\DBTPoCRA\bin\DBTPoCRA.dll
+C:\PocraCode\PocraSourceCode\DBTPoCRA\bin\DBTPoCRA.pdb
+C:\PocraCode\PocraSourceCode\DBTPoCRA\bin\AjaxControlToolkit.dll
+C:\PocraCode\PocraSourceCode\DBTPoCRA\bin\CommanClsLibrary.dll
+C:\PocraCode\PocraSourceCode\DBTPoCRA\bin\DropDownChosen.dll
+C:\PocraCode\PocraSourceCode\DBTPoCRA\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\PocraCode\PocraSourceCode\DBTPoCRA\bin\CommanClsLibrary.pdb
+C:\PocraCode\PocraSourceCode\DBTPoCRA\bin\DropDownChosen.pdb
+C:\PocraCode\PocraSourceCode\DBTPoCRA\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\PocraCode\PocraSourceCode\DBTPoCRA\obj\Release\DBTPoCRA.csproj.AssemblyReference.cache
+C:\PocraCode\PocraSourceCode\DBTPoCRA\obj\Release\DBTPoCRA.csproj.CoreCompileInputs.cache
+C:\PocraCode\PocraSourceCode\DBTPoCRA\obj\Release\DBTPoCRA.csproj.CopyComplete
+C:\PocraCode\PocraSourceCode\DBTPoCRA\obj\Release\DBTPoCRA.dll
+C:\PocraCode\PocraSourceCode\DBTPoCRA\obj\Release\DBTPoCRA.pdb
+C:\PocraCode\PocraSourceCode\DBTPoCRA\bin\TransliterateTextboxControl.dll
+C:\PocraCode\PocraSourceCode\DBTPoCRA\bin\TransliterateTextboxControl.pdb
+D:\POCRA CODE\PocraCode\PocraSourceCode\DBTPoCRA\bin\roslyn\csc.exe
+D:\POCRA CODE\PocraCode\PocraSourceCode\DBTPoCRA\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\POCRA CODE\PocraCode\PocraSourceCode\DBTPoCRA\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\POCRA CODE\PocraCode\PocraSourceCode\DBTPoCRA\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\POCRA CODE\PocraCode\PocraSourceCode\DBTPoCRA\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\POCRA CODE\PocraCode\PocraSourceCode\DBTPoCRA\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\POCRA CODE\PocraCode\PocraSourceCode\DBTPoCRA\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\POCRA CODE\PocraCode\PocraSourceCode\DBTPoCRA\bin\roslyn\System.Collections.Immutable.dll
+D:\POCRA CODE\PocraCode\PocraSourceCode\DBTPoCRA\bin\roslyn\System.Reflection.Metadata.dll
+D:\POCRA CODE\PocraCode\PocraSourceCode\DBTPoCRA\bin\roslyn\vbc.exe
+D:\POCRA CODE\PocraCode\PocraSourceCode\DBTPoCRA\bin\roslyn\VBCSCompiler.exe
+D:\POCRA CODE\PocraCode\PocraSourceCode\DBTPoCRA\bin\roslyn\VBCSCompiler.exe.config
+D:\POCRA CODE\PocraCode\PocraSourceCode\DBTPoCRA\bin\DBTPoCRA.dll.config
+D:\POCRA CODE\PocraCode\PocraSourceCode\DBTPoCRA\bin\DBTPoCRA.dll
+D:\POCRA CODE\PocraCode\PocraSourceCode\DBTPoCRA\bin\DBTPoCRA.pdb
+D:\POCRA CODE\PocraCode\PocraSourceCode\DBTPoCRA\bin\AjaxControlToolkit.dll
+D:\POCRA CODE\PocraCode\PocraSourceCode\DBTPoCRA\bin\CommanClsLibrary.dll
+D:\POCRA CODE\PocraCode\PocraSourceCode\DBTPoCRA\bin\DropDownChosen.dll
+D:\POCRA CODE\PocraCode\PocraSourceCode\DBTPoCRA\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\POCRA CODE\PocraCode\PocraSourceCode\DBTPoCRA\bin\CommanClsLibrary.pdb
+D:\POCRA CODE\PocraCode\PocraSourceCode\DBTPoCRA\bin\DropDownChosen.pdb
+D:\POCRA CODE\PocraCode\PocraSourceCode\DBTPoCRA\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\POCRA CODE\PocraCode\PocraSourceCode\DBTPoCRA\obj\Release\DBTPoCRA.csproj.AssemblyReference.cache
+D:\POCRA CODE\PocraCode\PocraSourceCode\DBTPoCRA\obj\Release\DBTPoCRA.csproj.CoreCompileInputs.cache
+D:\POCRA CODE\PocraCode\PocraSourceCode\DBTPoCRA\obj\Release\DBTPoCRA.csproj.CopyComplete
+D:\POCRA CODE\PocraCode\PocraSourceCode\DBTPoCRA\obj\Release\DBTPoCRA.dll
+D:\POCRA CODE\PocraCode\PocraSourceCode\DBTPoCRA\obj\Release\DBTPoCRA.pdb
+D:\POCRA WEB Split\Farmer\FarmerWeb_UAT\DBTPoCRA\bin\roslyn\csc.exe
+D:\POCRA WEB Split\Farmer\FarmerWeb_UAT\DBTPoCRA\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\POCRA WEB Split\Farmer\FarmerWeb_UAT\DBTPoCRA\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\POCRA WEB Split\Farmer\FarmerWeb_UAT\DBTPoCRA\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\POCRA WEB Split\Farmer\FarmerWeb_UAT\DBTPoCRA\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\POCRA WEB Split\Farmer\FarmerWeb_UAT\DBTPoCRA\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\POCRA WEB Split\Farmer\FarmerWeb_UAT\DBTPoCRA\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\POCRA WEB Split\Farmer\FarmerWeb_UAT\DBTPoCRA\bin\roslyn\System.Collections.Immutable.dll
+D:\POCRA WEB Split\Farmer\FarmerWeb_UAT\DBTPoCRA\bin\roslyn\System.Reflection.Metadata.dll
+D:\POCRA WEB Split\Farmer\FarmerWeb_UAT\DBTPoCRA\bin\roslyn\vbc.exe
+D:\POCRA WEB Split\Farmer\FarmerWeb_UAT\DBTPoCRA\bin\roslyn\VBCSCompiler.exe
+D:\POCRA WEB Split\Farmer\FarmerWeb_UAT\DBTPoCRA\bin\roslyn\VBCSCompiler.exe.config
+D:\POCRA WEB Split\Farmer\FarmerWeb_UAT\DBTPoCRA\bin\DBTPoCRA.dll.config
+D:\POCRA WEB Split\Farmer\FarmerWeb_UAT\DBTPoCRA\bin\DBTPoCRA.dll
+D:\POCRA WEB Split\Farmer\FarmerWeb_UAT\DBTPoCRA\bin\DBTPoCRA.pdb
+D:\POCRA WEB Split\Farmer\FarmerWeb_UAT\DBTPoCRA\bin\CommanClsLibrary.dll
+D:\POCRA WEB Split\Farmer\FarmerWeb_UAT\DBTPoCRA\bin\DropDownChosen.dll
+D:\POCRA WEB Split\Farmer\FarmerWeb_UAT\DBTPoCRA\bin\CommanClsLibrary.pdb
+D:\POCRA WEB Split\Farmer\FarmerWeb_UAT\DBTPoCRA\bin\DropDownChosen.pdb
+D:\POCRA WEB Split\Farmer\FarmerWeb_UAT\DBTPoCRA\obj\Release\DBTPoCRA.csproj.AssemblyReference.cache
+D:\POCRA WEB Split\Farmer\FarmerWeb_UAT\DBTPoCRA\obj\Release\DBTPoCRA.csproj.CoreCompileInputs.cache
+D:\POCRA WEB Split\Farmer\FarmerWeb_UAT\DBTPoCRA\obj\Release\DBTPoCRA.csproj.CopyComplete
+D:\POCRA WEB Split\Farmer\FarmerWeb_UAT\DBTPoCRA\obj\Release\DBTPoCRA.dll
+D:\POCRA WEB Split\Farmer\FarmerWeb_UAT\DBTPoCRA\obj\Release\DBTPoCRA.pdb
+D:\POCRA WEB Split\Farmer\FarmerWeb_UAT\DBTPoCRA\bin\AjaxControlToolkit.dll
+D:\POCRA WEB Split\Farmer\FarmerWeb_UAT\DBTPoCRA\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\POCRA WEB Split\Farmer\FarmerWeb_UAT\DBTPoCRA\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\POCRA WEB Split\Farmer\Farmer\FarmerWeb_UAT\DBTPoCRA\bin\roslyn\csc.exe
+D:\POCRA WEB Split\Farmer\Farmer\FarmerWeb_UAT\DBTPoCRA\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\POCRA WEB Split\Farmer\Farmer\FarmerWeb_UAT\DBTPoCRA\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\POCRA WEB Split\Farmer\Farmer\FarmerWeb_UAT\DBTPoCRA\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\POCRA WEB Split\Farmer\Farmer\FarmerWeb_UAT\DBTPoCRA\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\POCRA WEB Split\Farmer\Farmer\FarmerWeb_UAT\DBTPoCRA\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\POCRA WEB Split\Farmer\Farmer\FarmerWeb_UAT\DBTPoCRA\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\POCRA WEB Split\Farmer\Farmer\FarmerWeb_UAT\DBTPoCRA\bin\roslyn\System.Collections.Immutable.dll
+D:\POCRA WEB Split\Farmer\Farmer\FarmerWeb_UAT\DBTPoCRA\bin\roslyn\System.Reflection.Metadata.dll
+D:\POCRA WEB Split\Farmer\Farmer\FarmerWeb_UAT\DBTPoCRA\bin\roslyn\vbc.exe
+D:\POCRA WEB Split\Farmer\Farmer\FarmerWeb_UAT\DBTPoCRA\bin\roslyn\VBCSCompiler.exe
+D:\POCRA WEB Split\Farmer\Farmer\FarmerWeb_UAT\DBTPoCRA\bin\roslyn\VBCSCompiler.exe.config
+D:\POCRA WEB Split\Farmer\Farmer\FarmerWeb_UAT\DBTPoCRA\bin\UAT-FarmerWeb.dll.config
+D:\POCRA WEB Split\Farmer\Farmer\FarmerWeb_UAT\DBTPoCRA\bin\UAT-FarmerWeb.dll
+D:\POCRA WEB Split\Farmer\Farmer\FarmerWeb_UAT\DBTPoCRA\bin\UAT-FarmerWeb.pdb
+D:\POCRA WEB Split\Farmer\Farmer\FarmerWeb_UAT\DBTPoCRA\bin\AjaxControlToolkit.dll
+D:\POCRA WEB Split\Farmer\Farmer\FarmerWeb_UAT\DBTPoCRA\bin\CommanClsLibrary.dll
+D:\POCRA WEB Split\Farmer\Farmer\FarmerWeb_UAT\DBTPoCRA\bin\DropDownChosen.dll
+D:\POCRA WEB Split\Farmer\Farmer\FarmerWeb_UAT\DBTPoCRA\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\POCRA WEB Split\Farmer\Farmer\FarmerWeb_UAT\DBTPoCRA\bin\CommanClsLibrary.pdb
+D:\POCRA WEB Split\Farmer\Farmer\FarmerWeb_UAT\DBTPoCRA\bin\DropDownChosen.pdb
+D:\POCRA WEB Split\Farmer\Farmer\FarmerWeb_UAT\DBTPoCRA\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\POCRA WEB Split\Farmer\Farmer\FarmerWeb_UAT\DBTPoCRA\obj\Release\DBTPoCRA.csproj.AssemblyReference.cache
+D:\POCRA WEB Split\Farmer\Farmer\FarmerWeb_UAT\DBTPoCRA\obj\Release\DBTPoCRA.csproj.CoreCompileInputs.cache
+D:\POCRA WEB Split\Farmer\Farmer\FarmerWeb_UAT\DBTPoCRA\obj\Release\DBTPoCRA.csproj.CopyComplete
+D:\POCRA WEB Split\Farmer\Farmer\FarmerWeb_UAT\DBTPoCRA\obj\Release\UAT-FarmerWeb.dll
+D:\POCRA WEB Split\Farmer\Farmer\FarmerWeb_UAT\DBTPoCRA\obj\Release\UAT-FarmerWeb.pdb
+D:\DBTUAT\Farmer\FarmerWeb_UAT\DBTPoCRA\bin\roslyn\csc.exe
+D:\DBTUAT\Farmer\FarmerWeb_UAT\DBTPoCRA\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\DBTUAT\Farmer\FarmerWeb_UAT\DBTPoCRA\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\DBTUAT\Farmer\FarmerWeb_UAT\DBTPoCRA\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\DBTUAT\Farmer\FarmerWeb_UAT\DBTPoCRA\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\DBTUAT\Farmer\FarmerWeb_UAT\DBTPoCRA\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\DBTUAT\Farmer\FarmerWeb_UAT\DBTPoCRA\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\DBTUAT\Farmer\FarmerWeb_UAT\DBTPoCRA\bin\roslyn\System.Collections.Immutable.dll
+D:\DBTUAT\Farmer\FarmerWeb_UAT\DBTPoCRA\bin\roslyn\System.Reflection.Metadata.dll
+D:\DBTUAT\Farmer\FarmerWeb_UAT\DBTPoCRA\bin\roslyn\vbc.exe
+D:\DBTUAT\Farmer\FarmerWeb_UAT\DBTPoCRA\bin\roslyn\VBCSCompiler.exe
+D:\DBTUAT\Farmer\FarmerWeb_UAT\DBTPoCRA\bin\roslyn\VBCSCompiler.exe.config
+D:\DBTUAT\Farmer\FarmerWeb_UAT\DBTPoCRA\bin\UAT-FarmerWeb.dll.config
+D:\DBTUAT\Farmer\FarmerWeb_UAT\DBTPoCRA\bin\UAT-FarmerWeb.dll
+D:\DBTUAT\Farmer\FarmerWeb_UAT\DBTPoCRA\bin\UAT-FarmerWeb.pdb
+D:\DBTUAT\Farmer\FarmerWeb_UAT\DBTPoCRA\bin\AjaxControlToolkit.dll
+D:\DBTUAT\Farmer\FarmerWeb_UAT\DBTPoCRA\bin\CommanClsLibrary.dll
+D:\DBTUAT\Farmer\FarmerWeb_UAT\DBTPoCRA\bin\DropDownChosen.dll
+D:\DBTUAT\Farmer\FarmerWeb_UAT\DBTPoCRA\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\DBTUAT\Farmer\FarmerWeb_UAT\DBTPoCRA\bin\CommanClsLibrary.pdb
+D:\DBTUAT\Farmer\FarmerWeb_UAT\DBTPoCRA\bin\DropDownChosen.pdb
+D:\DBTUAT\Farmer\FarmerWeb_UAT\DBTPoCRA\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\DBTUAT\Farmer\FarmerWeb_UAT\DBTPoCRA\obj\Release\DBTPoCRA.csproj.AssemblyReference.cache
+D:\DBTUAT\Farmer\FarmerWeb_UAT\DBTPoCRA\obj\Release\DBTPoCRA.csproj.CoreCompileInputs.cache
+D:\DBTUAT\Farmer\FarmerWeb_UAT\DBTPoCRA\obj\Release\DBTPoCRA.csproj.CopyComplete
+D:\DBTUAT\Farmer\FarmerWeb_UAT\DBTPoCRA\obj\Release\UAT-FarmerWeb.dll
+D:\DBTUAT\Farmer\FarmerWeb_UAT\DBTPoCRA\obj\Release\UAT-FarmerWeb.pdb

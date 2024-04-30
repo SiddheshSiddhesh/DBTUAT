@@ -1,0 +1,516 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Aadhar_No" xml:space="preserve">
+    <value>आधार क्रमांक</value>
+  </data>
+  <data name="Activity" xml:space="preserve">
+    <value>बाब</value>
+  </data>
+  <data name="Activity_Category" xml:space="preserve">
+    <value>क्रियाकलाप श्रेणी</value>
+  </data>
+  <data name="Activity_Code" xml:space="preserve">
+    <value>प्रकल्पांतर्गत बाबीचा सांकेतांक</value>
+  </data>
+  <data name="Activity_Eligibility_List" xml:space="preserve">
+    <value>घटक पात्रता यादी</value>
+  </data>
+  <data name="Activity_Image" xml:space="preserve">
+    <value>घटक प्रतिमा (325 X 325 PX)</value>
+  </data>
+  <data name="Activity_Master_List" xml:space="preserve">
+    <value>घटकांची पूर्ण यादी</value>
+  </data>
+  <data name="Activity_Name" xml:space="preserve">
+    <value>प्रकल्पांतर्गत बाब</value>
+  </data>
+  <data name="Activity_Name_marathi" xml:space="preserve">
+    <value>प्रकल्पांतर्गत बाब (मराठी)</value>
+  </data>
+  <data name="Activity_Status" xml:space="preserve">
+    <value>घटकाबाबत सद्यस्थिती</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>पत्ता</value>
+  </data>
+  <data name="API" xml:space="preserve">
+    <value>API</value>
+  </data>
+  <data name="API_Authorized_List" xml:space="preserve">
+    <value>API अधिकृत यादी</value>
+  </data>
+  <data name="Approval_Stages" xml:space="preserve">
+    <value>मंजूरीचा टप्पा</value>
+  </data>
+  <data name="Assignment" xml:space="preserve">
+    <value>नेमून दिलेले कामकाज</value>
+  </data>
+  <data name="Beneficiary_Types" xml:space="preserve">
+    <value>लाभार्थी प्रकार</value>
+  </data>
+  <data name="Benificiary_Type" xml:space="preserve">
+    <value>लाभार्थी प्रकार</value>
+  </data>
+  <data name="CATEGORY" xml:space="preserve">
+    <value>श्रेणी</value>
+  </data>
+  <data name="CIRCLE" xml:space="preserve">
+    <value>मंडळ</value>
+  </data>
+  <data name="CLUSTER" xml:space="preserve">
+    <value>गावसमुह</value>
+  </data>
+  <data name="Common_Subsidy" xml:space="preserve">
+    <value>सामान्य सबसिडी</value>
+  </data>
+  <data name="Common_Subsidy_Amount" xml:space="preserve">
+    <value>सामान्य सबसिडी रक्कम</value>
+  </data>
+  <data name="Community_Registration_List" xml:space="preserve">
+    <value>ग्राम कृषि संजीवनी समिती नोंदणी यादी</value>
+  </data>
+  <data name="Component" xml:space="preserve">
+    <value>घटक</value>
+  </data>
+  <data name="DELETE" xml:space="preserve">
+    <value>डिलीट करा</value>
+  </data>
+  <data name="DISTRICT" xml:space="preserve">
+    <value>जिल्हा</value>
+  </data>
+  <data name="Document_Required" xml:space="preserve">
+    <value>आवश्यक कागदपत्र</value>
+  </data>
+  <data name="Drop_A_passport_size_image_of_user" xml:space="preserve">
+    <value>वापरकर्त्याची पासपोर्ट आकाराचा फ़ोटो जोडा जोडा</value>
+  </data>
+  <data name="Eligibility_Criteria" xml:space="preserve">
+    <value>आवश्यक पात्रता</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>इ-मेल पत्ता</value>
+  </data>
+  <data name="Farmer_Registration_List" xml:space="preserve">
+    <value>शेतकरी नोंदणी यादी</value>
+  </data>
+  <data name="Feasibility_Report" xml:space="preserve">
+    <value>व्यवहार्यता अहवाल</value>
+  </data>
+  <data name="FPO_Registration_List" xml:space="preserve">
+    <value>शेतकरी उत्पादक संघ / शेतकरी उत्पादक कंपनी / शेतकरी उत्पादक गट / बचत गट नोंदणी यादी</value>
+  </data>
+  <data name="FROM_REGISTRATION_DATE" xml:space="preserve">
+    <value>नोंदणी तारखेपासून</value>
+  </data>
+  <data name="Full_Name" xml:space="preserve">
+    <value>पूर्ण नाव</value>
+  </data>
+  <data name="GENDER" xml:space="preserve">
+    <value>लिंगभाव</value>
+  </data>
+  <data name="GramPanchayatCode" xml:space="preserve">
+    <value>ग्रामपंचायत कोड</value>
+  </data>
+  <data name="Guideline_Document" xml:space="preserve">
+    <value>मार्गदर्शक तत्वे</value>
+  </data>
+  <data name="Hierarchy" xml:space="preserve">
+    <value>पदानुक्रम</value>
+  </data>
+  <data name="Hierarchy_Code" xml:space="preserve">
+    <value>पदानुक्रम कोड</value>
+  </data>
+  <data name="Hierarchy_Name" xml:space="preserve">
+    <value>पदानुक्रम नाव</value>
+  </data>
+  <data name="Inspection_Forms_Type" xml:space="preserve">
+    <value>निरीक्षण फॉर्म प्रकार</value>
+  </data>
+  <data name="LAND_STATUS" xml:space="preserve">
+    <value>जमीन स्थिती</value>
+  </data>
+  <data name="Level" xml:space="preserve">
+    <value>स्तर</value>
+  </data>
+  <data name="Level_Hierarchy_List" xml:space="preserve">
+    <value>पदरचना यादी</value>
+  </data>
+  <data name="Mobile" xml:space="preserve">
+    <value>मोबाईल क्र.</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>नाव</value>
+  </data>
+  <data name="Organization_Name" xml:space="preserve">
+    <value>संस्थेचे नाव</value>
+  </data>
+  <data name="Other_Settings" xml:space="preserve">
+    <value>इतर सेटिंग्ज</value>
+  </data>
+  <data name="Parent_Hierarchy" xml:space="preserve">
+    <value>पालक पदक्रम</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>पासवर्ड</value>
+  </data>
+  <data name="Payment_Term" xml:space="preserve">
+    <value>अर्थसहाय्य देण्याची अट</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>दुरद्वनी क्रमांक</value>
+  </data>
+  <data name="PHYSICALLY_HANDICAP" xml:space="preserve">
+    <value>दिव्यांग</value>
+  </data>
+  <data name="Pre_Sanction_letters_Type" xml:space="preserve">
+    <value>पूर्व-संमती पत्र प्रकार</value>
+  </data>
+  <data name="Records_Page" xml:space="preserve">
+    <value>दस्तएवज / पृष्ठ क्र.</value>
+  </data>
+  <data name="Registration_No" xml:space="preserve">
+    <value>नोंदणी क्रमांक</value>
+  </data>
+  <data name="Required_Land" xml:space="preserve">
+    <value>आवश्यक जमीनधारणा</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>रीसेट करा</value>
+  </data>
+  <data name="Role" xml:space="preserve">
+    <value>कर्तव्य व जबाबदारी</value>
+  </data>
+  <data name="SAVE" xml:space="preserve">
+    <value>जतन करा</value>
+  </data>
+  <data name="SC_ST_Subsidy" xml:space="preserve">
+    <value>एससी / एसटी सबसिडी</value>
+  </data>
+  <data name="SC_ST_Subsidy_Amount" xml:space="preserve">
+    <value>अनु. जाती/जमातीतील लाभार्थांसाठी लागू असलेले अर्थसहाय्य</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>शोध</value>
+  </data>
+  <data name="Search_Term" xml:space="preserve">
+    <value>शोध शब्द</value>
+  </data>
+  <data name="Season" xml:space="preserve">
+    <value>हंगाम</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>स्थिती</value>
+  </data>
+  <data name="Subsidy_Term_List" xml:space="preserve">
+    <value>अर्थसहाय्याविषयीची यादी</value>
+  </data>
+  <data name="Sub_Component" xml:space="preserve">
+    <value>उपघटक</value>
+  </data>
+  <data name="TALUKA" xml:space="preserve">
+    <value>तालुका</value>
+  </data>
+  <data name="TO_REGISTRATION_DATE" xml:space="preserve">
+    <value>अर्ज करण्याच्या तारखेपर्यंत</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>वापरकर्ता नाव</value>
+  </data>
+  <data name="User_List" xml:space="preserve">
+    <value>वापरकर्त्यांची यादी</value>
+  </data>
+  <data name="VILLAGE" xml:space="preserve">
+    <value>गावाचे नाव</value>
+  </data>
+  <data name="Woman_Subsidy" xml:space="preserve">
+    <value>महिलांकरिता लागू असलेल्या अर्थसहाय्याची टक्केवारी</value>
+  </data>
+  <data name="Woman_Subsidy_Amount" xml:space="preserve">
+    <value>महिलांकरिता लागू असलेले अर्थसहाय</value>
+  </data>
+  <data name="You_can_also_click_to_open_file_browser" xml:space="preserve">
+    <value>आपण फाइल ब्राउजर उघडण्यासाठी देखील क्लिक करू शकता</value>
+  </data>
+  <data name="AADHAR_NUMBER" xml:space="preserve">
+    <value>आधार क्रमांक</value>
+  </data>
+  <data name="ADDRESS_AND_OTHER_DETAILS" xml:space="preserve">
+    <value>पत्ता आणि इतर तपशील</value>
+  </data>
+  <data name="Application_List" xml:space="preserve">
+    <value>अर्जांची यादी</value>
+  </data>
+  <data name="Application_Status" xml:space="preserve">
+    <value>अर्जाची सद्यस्थिती</value>
+  </data>
+  <data name="AUTHORISED_PERSON_EMAILID" xml:space="preserve">
+    <value>अधिकृत व्यक्ती ई - मेल आयडी</value>
+  </data>
+  <data name="AUTHORISED_PERSON_MOBILE" xml:space="preserve">
+    <value>प्राधिकृत व्यक्तीचे नाव</value>
+  </data>
+  <data name="AUTHORISED_PERSON_NAME" xml:space="preserve">
+    <value>प्राधिकृत व्यक्तीचे नाव</value>
+  </data>
+  <data name="BASIC_DETAILS" xml:space="preserve">
+    <value>मुलभूत माहिती</value>
+  </data>
+  <data name="CEO_SECRETARY" xml:space="preserve">
+    <value>मुख्य कार्यकारी अधिकारी/ सचिव</value>
+  </data>
+  <data name="CLUSTER_CODE" xml:space="preserve">
+    <value>गावसमुह क्र.</value>
+  </data>
+  <data name="CORRESPONDENCE_ADDRESS" xml:space="preserve">
+    <value>पत्रव्यवहाराचा पत्ता</value>
+  </data>
+  <data name="Current_Status" xml:space="preserve">
+    <value>वर्तमान स्थिती</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>तारीख</value>
+  </data>
+  <data name="DATE_OF_BIRTH" xml:space="preserve">
+    <value>जन्मतारीख</value>
+  </data>
+  <data name="DECLARATION" xml:space="preserve">
+    <value>घोषणापत्र</value>
+  </data>
+  <data name="Declarations" xml:space="preserve">
+    <value>स्वयंघोषणापत्र</value>
+  </data>
+  <data name="DESIGNATION" xml:space="preserve">
+    <value>पदनाम</value>
+  </data>
+  <data name="DISABILITY_PERCENTAGE" xml:space="preserve">
+    <value>अपंगत्वाचे प्रमाण</value>
+  </data>
+  <data name="EMAIL_ID" xml:space="preserve">
+    <value>इ-मेल पत्ता</value>
+  </data>
+  <data name="FARMER_NAME" xml:space="preserve">
+    <value>शेतकरी नाव </value>
+  </data>
+  <data name="From_Application_Date" xml:space="preserve">
+    <value>अर्जाच्या तारखेपासून</value>
+  </data>
+  <data name="HOUSE_NO" xml:space="preserve">
+    <value>घर क्र.</value>
+  </data>
+  <data name="LANDLINE_NO" xml:space="preserve">
+    <value>दुरध्वनी क्र.</value>
+  </data>
+  <data name="LAND_DETAILS" xml:space="preserve">
+    <value>जमीन विवरण</value>
+  </data>
+  <data name="MOBILE1" xml:space="preserve">
+    <value>मोबाईल क्र. - १</value>
+  </data>
+  <data name="MOBILE2" xml:space="preserve">
+    <value>मोबाईल क्र. - २</value>
+  </data>
+  <data name="PAN_NO" xml:space="preserve">
+    <value>पॅन क्र</value>
+  </data>
+  <data name="PIN_CODE" xml:space="preserve">
+    <value>पिन कोड</value>
+  </data>
+  <data name="POST" xml:space="preserve">
+    <value>पोस्ट</value>
+  </data>
+  <data name="PROMOTER_DETAILS" xml:space="preserve">
+    <value>शेतकरी गटाच्या (FPO/FPC/FIG/SHGs) प्रवर्तकाचा तपशील</value>
+  </data>
+  <data name="PROOF_OF_AUTHORISATION" xml:space="preserve">
+    <value>प्राधिकृत असल्याचा पुरावा</value>
+  </data>
+  <data name="Reason" xml:space="preserve">
+    <value>कारण</value>
+  </data>
+  <data name="REGISTERED_ADDRESS" xml:space="preserve">
+    <value>नोंदणीकृत पत्ता</value>
+  </data>
+  <data name="REGISTERED_THROUGH" xml:space="preserve">
+    <value>याद्वारे नोंदणीकृत</value>
+  </data>
+  <data name="REGISTERED_UNDER" xml:space="preserve">
+    <value>याअंतर्गत नोंदणीकृत</value>
+  </data>
+  <data name="REGISTRATION_CERTIFICATE" xml:space="preserve">
+    <value>नोंदणीचे प्रमाणपत्र</value>
+  </data>
+  <data name="REGISTRATION_DATE" xml:space="preserve">
+    <value>नोंदणी दिनांक</value>
+  </data>
+  <data name="Remark_if_any" xml:space="preserve">
+    <value>काहीही असल्यास टिप्पणी द्या</value>
+  </data>
+  <data name="STREET_NO" xml:space="preserve">
+    <value>रस्ता क्र.</value>
+  </data>
+  <data name="To_Application_Date" xml:space="preserve">
+    <value>अर्ज करण्याच्या तारखेपर्यंत</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>अद्यतन</value>
+  </data>
+  <data name="VERIFICATION" xml:space="preserve">
+    <value>पडताळणी</value>
+  </data>
+  <data name="VERIFICATION_LOG" xml:space="preserve">
+    <value>सत्यापन लॉग</value>
+  </data>
+  <data name="All_the_information" xml:space="preserve">
+    <value>मी दिलेली सर्व माहिती ही खरी व बरोबर असल्याची माझी पूर्ण खात्री आहे.</value>
+  </data>
+  <data name="All_the_information1" xml:space="preserve">
+    <value>मी ग्राम कृषि संजीवनी समितीच्या वतीने दिलेली  सर्व माहिती सत्य आणि योग्य आहे.</value>
+  </data>
+  <data name="At_the_time_of_registering" xml:space="preserve">
+    <value>बँक खात्याची नोंदणी करण्याच्या वेळी, वापरकर्त्याने टी अँड सी स्वीकारणे "मी समजतो की आधार आधारित वितरण माझ्या आधार लिंक बँक खात्यात जमा केले जाईल"</value>
+  </data>
+  <data name="At_the_time_of_registering_Bank_Account" xml:space="preserve">
+    <value>बँक खात्याची नोंदणी करताना, वापरकर्त्याने टी &amp; सी स्वीकारणे "मला समजले की वितरणास समुदायाच्या नोंदणीकृत बँक खात्यात जमा केले जाईल"</value>
+  </data>
+  <data name="In_case_mobile_number" xml:space="preserve">
+    <value>जर मोबाईल नंबर जोडलेला नसेल तर "आपला क्रमांक आधारेशी जोडलेला नाही" असे सांगण्यास सिस्टमने पॉप अप देणे आवश्यक आहे. कृपया आपल्या मोबाइल क्रमांकासह आपला आधार लिंक करा आणि नंतर लॉग इन करण्याचा प्रयत्न करा किंवा बायोमेट्रिक लॉगिन निवडा आणि आधार केवायसी केंद्राकडून मदत घ्या "</value>
+  </data>
+  <data name="I_confirm_that" xml:space="preserve">
+    <value>मी माझ्या जमिनाधारणेबाबतची सर्व माहिती पूर्णत: भरलेली आहे.</value>
+  </data>
+  <data name="I_hereby_consent" xml:space="preserve">
+    <value>मला माझ्या भ्रमणध्वनी द्वारे प्रस्तुत प्रकल्पाची माहिती मिळणेकामी मी माझी सहमती देत आहे.</value>
+  </data>
+  <data name="I_the_holder_of_AADHAR" xml:space="preserve">
+    <value>मी, उक्तप्रमाणे अर्जामध्ये माझा आधार क्रमांक दिलेला आह. मी, माझ्या आधार कार्डावरील माझा क्रमांक, नाव, हाताचे ठसे/ डॊळ्याची प्रतिकृति याचा वापर युआईडीएआई या संस्थेसमावेत माझी ओळख पटविण्यासाठी करण्यास प्रकल्प व्यवस्थापन कक्ष, नानाजी देशमुख कृषि संजीवनी प्रकल्प यांना करू देण्यास सहमती दर्शवीत आहे. प्रकल्प व्यवस्थापन कक्ष, नानाजी देशमुख कृषि संजीवनी प्रकल्प यांनी मला कळविले आहे की माझी ओळख पटविणारी माहिती फक्त प्रस्तूत प्रकल्पांतर्गत राबविण्यात येणारे उपक्रम आणि बाबी यासाठीच वापरली जाईल आणि माझ्या बायोमेट्रिक्सची माहिती संग्रहित / अन्य संस्था/ व्यक्ती यांना देण्यात येणार नाही आणि केवळ प्रमाणीकरणाच्या उद्देशासाठी सीआयडीआरला सादर केली जाईल.</value>
+  </data>
+  <data name="Note_to_be_added" xml:space="preserve">
+    <value>विकलांग व्यक्ती निवडीसाठी जोडल्या जाणार्या टीप "40% किंवा अधिक असंगतता योजनेच्या फायद्यासाठी विचारात घेण्यात येईल. सरकारी वैद्यकीय प्रॅक्टिशनरकडून कृपया संलग्न केलेले प्रमाणपत्र त्याच "</value>
+  </data>
+  <data name="While_registering_mobile_number" xml:space="preserve">
+    <value>इतर व्यक्तीचा मोबाइल नंबर नोंदवताना, वापरकर्त्याने "पीओसीआरए कडून संप्रेषणांसाठी दिलेल्या मोबाइल नंबरचा वापर करण्यास मी सहमत आहे" असे नियम आणि अटी स्वीकारण्याचे प्रयोक्ता</value>
+  </data>
+  <data name="Set_TimeLine" xml:space="preserve">
+    <value>कालमर्यादा निश्चित करा</value>
+  </data>
+  <data name="Stage" xml:space="preserve">
+    <value>टप्पे</value>
+  </data>
+</root>

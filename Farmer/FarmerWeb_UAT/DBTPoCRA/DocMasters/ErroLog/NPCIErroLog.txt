@@ -1,0 +1,20 @@
+-------------------------------------------
+08-04-2024 12:11:01
+Time: 08-04-2024 12:11:01 PM
+-----------------------------------------------------------
+Message: NPCI-System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 103.14.162.34:443
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at NPCIClass.InvokeService(String Aadhaar, String mobile) in D:\POCRA WEB Split\Farmer\Farmer\FarmerWeb_UAT\DBTPoCRA\AdminTrans\UserControls\NPCI\NPCIClass.cs:line 186
+   at NPCIClass.UpdateAdharStatusDetails(String RegistrationID) in D:\POCRA WEB Split\Farmer\Farmer\FarmerWeb_UAT\DBTPoCRA\AdminTrans\UserControls\NPCI\NPCIClass.cs:line 24
+
+UserID: 19425
+-----------------------------------------------------------
+IPAddress: ::1
+-----------------------------------------------------------
+
+-------------------------------------------
+
